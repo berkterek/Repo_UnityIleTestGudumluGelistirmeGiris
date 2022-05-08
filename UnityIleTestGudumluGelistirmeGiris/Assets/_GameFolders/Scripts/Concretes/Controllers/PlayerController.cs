@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityTddBeginner.Abstracts.Controllers;
 using UnityTddBeginner.Abstracts.Inputs;
 using UnityTddBeginner.Abstracts.Movements;
+using UnityTddBeginner.Inputs;
 using UnityTddBeginner.Movements;
 
 namespace UnityTddBeginner.Controllers
@@ -21,6 +22,7 @@ namespace UnityTddBeginner.Controllers
 
         void Awake()
         {
+            InputReader = new InputReader();
             _mover = new PlayerMoveWithTranslate(this);
         }
 
