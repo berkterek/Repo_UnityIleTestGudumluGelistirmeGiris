@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1577
+    x: 1570
     y: 51
-    width: 1854
-    height: 988
+    width: 1857
+    height: 973
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Test Runner
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -40,9 +40,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 499
-    width: 869
-    height: 439
+    y: 501
+    width: 883
+    height: 422
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 23}
@@ -67,14 +67,14 @@ MonoBehaviour:
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 425
+    x: 412
     y: 0
-    width: 869
-    height: 938
+    width: 883
+    height: 923
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 88
+  controlID: 106
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,9 +91,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 445
-    width: 425
-    height: 493
+    y: 428
+    width: 412
+    height: 495
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 19}
@@ -121,8 +121,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 425
-    height: 938
+    width: 412
+    height: 923
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
@@ -146,12 +146,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1854
-    height: 938
+    width: 1857
+    height: 923
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 86
+  controlID: 104
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,25 +162,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1294
+    x: 1295
     y: 0
-    width: 560
-    height: 938
-  m_MinSize: {x: 276, y: 71}
+    width: 562
+    height: 923
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 20}
   - {fileID: 18}
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -198,8 +198,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 425
-    height: 445
+    width: 412
+    height: 428
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
@@ -227,8 +227,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1854
-    height: 988
+    width: 1857
+    height: 973
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -252,7 +252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1854
+    width: 1857
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -273,8 +273,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 968
-    width: 1854
+    y: 953
+    width: 1857
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -297,12 +297,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1294
-    height: 938
+    width: 1295
+    height: 923
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 87
+  controlID: 105
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -320,8 +320,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 869
-    height: 499
+    width: 883
+    height: 501
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 22}
@@ -330,7 +330,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 15}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,10 +379,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1968
-    y: 73
-    width: 1032
-    height: 926
+    x: 1982
+    y: 81
+    width: 881
+    height: 484
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -480,21 +480,21 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2871
+    x: 2865
     y: 81
-    width: 559
-    height: 921
+    width: 561
+    height: 902
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 2698
+    ID: 178
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
-    - 638
-    - 213
+    - 624
+    - 208
     relativeSizes:
     - 0.75
     - 0.25
@@ -504,7 +504,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 851
+    lastTotalSize: 832
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -512,7 +512,7 @@ MonoBehaviour:
     oldMinSizes: 
     oldMaxSizes: 
     oldSplitSize: 0
-  m_TestTypeToolbarIndex: 0
+  m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
     m_Window: {fileID: 18}
     m_NewResultList:
@@ -637,7 +637,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: ac3bc26a
       m_LastClickedID: 1791114156
-      m_ExpandedIDs: ae332b91569fb79ec4a062b1b9afdc20a850a829f509a25dffffff7f
+      m_ExpandedIDs: ae332b91c4a062b1b9afdc20f509a25dffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -672,7 +672,7 @@ MonoBehaviour:
       name: UnityIleTestGudumluGelistirmeGiris
       fullName: UnityIleTestGudumluGelistirmeGiris
       resultStatus: 1
-      duration: 0.0662279
+      duration: 0.2605183
       messages: 
       output: 
       stacktrace: 
@@ -688,7 +688,7 @@ MonoBehaviour:
       name: EditTests.dll
       fullName: D:/GitHub/Repo_UnityIleTestGudumluGelistirmeGiris/UnityIleTestGudumluGelistirmeGiris/Library/ScriptAssemblies/EditTests.dll
       resultStatus: 1
-      duration: 0.0356229
+      duration: 0.2300604
       messages: 
       output: 
       stacktrace: 
@@ -699,6 +699,122 @@ MonoBehaviour:
       categories: []
       parentId: 1000
       parentUniqueId: '[UnityIleTestGudumluGelistirmeGiris][suite]'
+    - id: 1015
+      uniqueId: EditTests.dll/[EditTests][Movements][suite]
+      name: Movements
+      fullName: Movements
+      resultStatus: 1
+      duration: 0.2288763
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: '[EditTests.dll][suite]'
+    - id: 1009
+      uniqueId: EditTests.dll/Movements/[EditTests][Movements.player_movement][suite]
+      name: player_movement
+      fullName: Movements.player_movement
+      resultStatus: 1
+      duration: 0.2280849
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: EditTests.dll/[EditTests][Movements][suite]
+    - id: 1005
+      uniqueId: EditTests.dll/Movements/player_movement/[EditTests][Movements.player_movement.move_10_meters_left_end_position_greater_than_start_position]
+      name: move_10_meters_left_end_position_greater_than_start_position
+      fullName: Movements.player_movement.move_10_meters_left_end_position_greater_than_start_position
+      resultStatus: 1
+      duration: 0.1759766
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_movement][suite]
+    - id: 1003
+      uniqueId: EditTests.dll/Movements/player_movement/[EditTests][Movements.player_movement.move_10_meters_right_end_position_greater_than_start_position]
+      name: move_10_meters_right_end_position_greater_than_start_position
+      fullName: Movements.player_movement.move_10_meters_right_end_position_greater_than_start_position
+      resultStatus: 1
+      duration: 0.0026902
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_movement][suite]
+    - id: 1004
+      uniqueId: EditTests.dll/Movements/player_movement/[EditTests][Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position][suite]
+      name: move_10_meters_right_or_left_not_equal_start_position
+      fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position
+      resultStatus: 1
+      duration: 0.0324159
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_movement][suite]
+    - id: 1002
+      uniqueId: EditTests.dll/Movements/player_movement/move_10_meters_right_or_left_not_equal_start_position/[EditTests][Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(1.0f)]
+      name: move_10_meters_right_or_left_not_equal_start_position(1.0f)
+      fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(1.0f)
+      resultStatus: 1
+      duration: 0.0125972
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: EditTests.dll/Movements/player_movement/[EditTests][Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position][suite]
+    - id: 1003
+      uniqueId: EditTests.dll/Movements/player_movement/move_10_meters_right_or_left_not_equal_start_position/[EditTests][Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(-1.0f)]
+      name: move_10_meters_right_or_left_not_equal_start_position(-1.0f)
+      fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(-1.0f)
+      resultStatus: 1
+      duration: 0.0019859
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: EditTests.dll/Movements/player_movement/[EditTests][Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position][suite]
     - id: 1005
       uniqueId: EditTests.dll/[EditTests][SampleTests][suite]
       name: SampleTests
@@ -765,13 +881,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: EditTests.dll/SampleTests/[EditTests][SampleTests.first_edit_test_script][suite]
-    m_ResultText: first_edit_test_script (0,002s)
+    m_ResultText: player_movement (0,228s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 99a55ad8
-      m_LastClickedID: -665148007
-      m_ExpandedIDs: c69f8aa5b9afdc20f509a25db957b166ffffff7f
+      m_SelectedIDs: 734b5c7d
+      m_LastClickedID: 2103200627
+      m_ExpandedIDs: c69f8aa55d2e86eeb9afdc20f509a25db957b166ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -817,10 +933,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1577
-    y: 526
-    width: 424
-    height: 472
+    x: 1570
+    y: 509
+    width: 411
+    height: 474
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -838,22 +954,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_GameFolders/Scripts
+    - Assets/_GameFolders/Scripts/Abstracts/Inputs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_GameFolders/Scripts
+  - Assets/_GameFolders/Scripts/Abstracts/Inputs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\GitHub\Repo_UnityIleTestGudumluGelistirmeGiris\UnityIleTestGudumluGelistirmeGiris
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4620000
-    m_LastClickedID: 25300
-    m_ExpandedIDs: 00000000ce620000d0620000d2620000d4620000d6620000d8620000da62000000ca9a3b
+    m_SelectedIDs: 40630000
+    m_LastClickedID: 25408
+    m_ExpandedIDs: 00000000fa620000fc620000fe62000000630000026300000463000006630000086300000a6300003263000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -881,7 +997,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ce620000d0620000d2620000d4620000d6620000d8620000da620000
+    m_ExpandedIDs: 00000000fa620000fc620000fe62000000630000026300000463000006630000086300000a630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -909,7 +1025,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000076630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -953,14 +1069,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2871
+    x: 2865
     y: 81
-    width: 559
-    height: 917
+    width: 561
+    height: 909
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -968,10 +1084,10 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: 190
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 34590
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -998,10 +1114,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1577
+    x: 1570
     y: 81
-    width: 424
-    height: 424
+    width: 411
+    height: 407
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1011,7 +1127,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fefaffff
+      m_ExpandedIDs: 06fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1055,10 +1171,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2002
+    x: 1982
     y: 81
-    width: 867
-    height: 478
+    width: 881
+    height: 480
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1282,9 +1398,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.32617188, y: 0.41756263, z: 0.008797536}
+    m_Target: {x: -0.12901822, y: -0.43117055, z: 0.031510256}
     speed: 2
-    m_Value: {x: -0.32617188, y: 0.41756263, z: 0.008797536}
+    m_Value: {x: -0.12901822, y: -0.43117055, z: 0.031510256}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1335,9 +1451,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.12025
+    m_Target: 6.8489704
     speed: 2
-    m_Value: 9.12025
+    m_Value: 6.8489704
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1382,10 +1498,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2002
-    y: 580
-    width: 867
-    height: 418
+    x: 1982
+    y: 582
+    width: 881
+    height: 401
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1396,7 +1512,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 867, y: 397}
+  m_TargetSize: {x: 881, y: 380}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1411,10 +1527,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -433.5
-    m_HBaseRangeMax: 433.5
-    m_VBaseRangeMin: -198.5
-    m_VBaseRangeMax: 198.5
+    m_HBaseRangeMin: -440.5
+    m_HBaseRangeMax: 440.5
+    m_VBaseRangeMin: -190
+    m_VBaseRangeMax: 190
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1432,23 +1548,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 867
-      height: 397
+      width: 881
+      height: 380
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 433.5, y: 198.5}
+    m_Translation: {x: 440.5, y: 190}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -433.5
-      y: -198.5
-      width: 867
-      height: 397
+      x: -440.5
+      y: -190
+      width: 881
+      height: 380
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 867, y: 418}
+  m_LastWindowPixelSize: {x: 881, y: 401}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1474,10 +1590,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1577
-    y: 526
-    width: 424
-    height: 472
+    x: 1570
+    y: 512
+    width: 411
+    height: 478
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

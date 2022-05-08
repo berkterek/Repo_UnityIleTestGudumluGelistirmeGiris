@@ -25,7 +25,7 @@ namespace UnityTddBeginner.Movements
 
         public void FixedTick()
         {
-            _transform.Translate(Vector2.right * _horizontalInput);
+            _transform.Translate(Vector2.right * _horizontalInput * (_moveSpeed *Time.deltaTime));
         }
     }    
 }
