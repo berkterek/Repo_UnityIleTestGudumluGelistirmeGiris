@@ -5,6 +5,7 @@ using UnityTddBeginner.Movements;
 using NSubstitute;
 using UnityEngine;
 using UnityTddBeginner.Abstracts.Inputs;
+using UnityTddBeginner.Abstracts.ScriptableObjects;
 
 namespace Movements
 {
@@ -16,6 +17,8 @@ namespace Movements
             GameObject gameObject = new GameObject();
             playerController.transform.Returns(gameObject.transform);
             playerController.InputReader = Substitute.For<IInputReader>();
+            playerController.Stats.Returns(Substitute.For<IPlayerStats>());
+            playerController.Stats.MoveSpeed.Returns(5f);
 
             return playerController;
         }

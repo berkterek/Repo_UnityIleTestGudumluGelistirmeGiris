@@ -9,7 +9,6 @@ namespace UnityTddBeginner.Movements
         readonly IPlayerController _playerController;
         readonly Transform _transform;
         
-        float _moveSpeed = 1f;
         float _horizontalInput = 0f;
         
         public PlayerMoveWithTranslate(IPlayerController playerController)
@@ -25,7 +24,7 @@ namespace UnityTddBeginner.Movements
 
         public void FixedTick()
         {
-            _transform.Translate(Vector2.right * _horizontalInput * (_moveSpeed *Time.deltaTime));
+            _transform.Translate(Vector2.right * _horizontalInput * (_playerController.Stats.MoveSpeed *Time.deltaTime));
         }
     }    
 }
