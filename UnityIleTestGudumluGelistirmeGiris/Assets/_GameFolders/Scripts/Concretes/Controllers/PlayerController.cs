@@ -14,7 +14,7 @@ namespace UnityTddBeginner.Controllers
         [SerializeField] PlayerStats _playerStats;
         
         IMover _mover;
-        //Flip
+        IFlip _flip;
         
         //Jump or Double Jump
         //Attack
@@ -28,11 +28,13 @@ namespace UnityTddBeginner.Controllers
         {
             InputReader = new InputReader();
             _mover = new PlayerMoveWithTranslate(this);
+            _flip = new PlayerFlipWithScale(this);
         }
 
         void Update()
         {
             _mover.Tick();
+            _flip.Tick();
         }
 
         void FixedUpdate()

@@ -187,12 +187,28 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6302368025141127604, guid: 746ae8819f052cf42b29c7dd844190d9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6302368025141127604, guid: 746ae8819f052cf42b29c7dd844190d9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6302368025141127605, guid: 746ae8819f052cf42b29c7dd844190d9, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6302368025205877324, guid: 746ae8819f052cf42b29c7dd844190d9, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6302368025205877325, guid: 746ae8819f052cf42b29c7dd844190d9, type: 3}
       propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6302368025205877325, guid: 746ae8819f052cf42b29c7dd844190d9, type: 3}
+      propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6302368025205877325, guid: 746ae8819f052cf42b29c7dd844190d9, type: 3}
