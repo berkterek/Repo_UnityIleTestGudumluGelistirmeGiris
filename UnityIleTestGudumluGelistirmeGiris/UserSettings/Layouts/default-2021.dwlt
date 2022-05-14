@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1570
+    x: 1578
     y: 51
-    width: 1857
+    width: 1849
     height: 980
   m_ShowMode: 4
   m_Title: Hierarchy
@@ -41,10 +41,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 506
-    width: 921
+    width: 906
     height: 424
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -67,14 +67,14 @@ MonoBehaviour:
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 429
+    x: 435
     y: 0
-    width: 921
+    width: 906
     height: 930
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 60
+  controlID: 112
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,11 +91,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 431
-    width: 429
-    height: 499
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+    y: 430
+    width: 435
+    height: 500
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 19}
@@ -121,12 +121,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 429
+    width: 435
     height: 930
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 140
+  controlID: 83
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,12 +146,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1857
+    width: 1849
     height: 930
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 58
+  controlID: 76
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,25 +162,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1350
+    x: 1341
     y: 0
-    width: 507
+    width: 508
     height: 930
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 20}
   - {fileID: 18}
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -198,8 +198,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 429
-    height: 431
+    width: 435
+    height: 430
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
@@ -227,7 +227,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1857
+    width: 1849
     height: 980
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -252,7 +252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1857
+    width: 1849
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -274,7 +274,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 960
-    width: 1857
+    width: 1849
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -297,12 +297,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1350
+    width: 1341
     height: 930
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 59
+  controlID: 111
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -320,7 +320,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 921
+    width: 906
     height: 506
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -480,16 +480,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2920
+    x: 2919
     y: 81
-    width: 506
+    width: 507
     height: 909
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 518
+    ID: 1136
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -521,7 +521,7 @@ MonoBehaviour:
       name: UnityIleTestGudumluGelistirmeGiris
       fullName: UnityIleTestGudumluGelistirmeGiris
       resultStatus: 1
-      duration: 12.887958
+      duration: 19.09673
       messages: 
       output: 
       stacktrace: 
@@ -537,7 +537,7 @@ MonoBehaviour:
       name: PlayModeTests.dll
       fullName: D:/GitHub/Repo_UnityIleTestGudumluGelistirmeGiris/UnityIleTestGudumluGelistirmeGiris/Library/ScriptAssemblies/PlayModeTests.dll
       resultStatus: 1
-      duration: 12.542058
+      duration: 18.716967
       messages: 
       output: 
       stacktrace: 
@@ -553,7 +553,7 @@ MonoBehaviour:
       name: Movements
       fullName: Movements
       resultStatus: 1
-      duration: 12.531041
+      duration: 18.70301
       messages: 
       output: 
       stacktrace: 
@@ -564,12 +564,128 @@ MonoBehaviour:
       categories: []
       parentId: 1021
       parentUniqueId: '[PlayModeTests.dll][suite]'
+    - id: 1001
+      uniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_flip][suite]
+      name: player_flip
+      fullName: Movements.player_flip
+      resultStatus: 1
+      duration: 18.697348
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1016
+      parentUniqueId: PlayModeTests.dll/[PlayModeTests][Movements][suite]
+    - id: 1076
+      uniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
+      resultStatus: 1
+      duration: 12.523907
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1070
+      parentUniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_flip][suite]
+    - id: 1074
+      uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
+      resultStatus: 1
+      duration: 6.4209485
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1076
+      parentUniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+    - id: 1075
+      uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
+      resultStatus: 1
+      duration: 6.0771065
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1076
+      parentUniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+    - id: 1073
+      uniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
+      name: player_get_input_value_body_scale_x_result_equal_input_value
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value
+      resultStatus: 1
+      duration: 6.1633444
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1070
+      parentUniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_flip][suite]
+    - id: 1071
+      uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_body_scale_x_result_equal_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)]
+      name: player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
+      resultStatus: 1
+      duration: 3.0793657
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
+    - id: 1072
+      uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_body_scale_x_result_equal_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)]
+      name: player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
+      resultStatus: 1
+      duration: 3.0764558
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
     - id: 1015
       uniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_movement][suite]
       name: player_movement
       fullName: Movements.player_movement
       resultStatus: 1
-      duration: 12.524301
+      duration: 12.628908
       messages: 
       output: 
       stacktrace: 
@@ -585,7 +701,7 @@ MonoBehaviour:
       name: player_move_left_end_position_greater_than_start_position
       fullName: Movements.player_movement.player_move_left_end_position_greater_than_start_position
       resultStatus: 1
-      duration: 3.2905693
+      duration: 3.3605444
       messages: 
       output: 
       stacktrace: 
@@ -602,7 +718,7 @@ MonoBehaviour:
       name: player_move_left_or_right_not_equal_start_position
       fullName: Movements.player_movement.player_move_left_or_right_not_equal_start_position
       resultStatus: 1
-      duration: 6.14258
+      duration: 6.1649923
       messages: 
       output: 
       stacktrace: 
@@ -618,7 +734,7 @@ MonoBehaviour:
       name: player_move_left_or_right_not_equal_start_position(1.0f)
       fullName: Movements.player_movement.player_move_left_or_right_not_equal_start_position(1.0f)
       resultStatus: 1
-      duration: 3.0752475
+      duration: 3.0749023
       messages: 
       output: 
       stacktrace: 
@@ -635,7 +751,7 @@ MonoBehaviour:
       name: player_move_left_or_right_not_equal_start_position(-1.0f)
       fullName: Movements.player_movement.player_move_left_or_right_not_equal_start_position(-1.0f)
       resultStatus: 1
-      duration: 3.05914
+      duration: 3.0804925
       messages: 
       output: 
       stacktrace: 
@@ -652,7 +768,7 @@ MonoBehaviour:
       name: player_move_right_end_position_greater_than_start_position
       fullName: Movements.player_movement.player_move_right_end_position_greater_than_start_position
       resultStatus: 1
-      duration: 3.0638676
+      duration: 3.0804117
       messages: 
       output: 
       stacktrace: 
@@ -669,7 +785,7 @@ MonoBehaviour:
       name: SampleTests
       fullName: SampleTests
       resultStatus: 1
-      duration: 10.882198
+      duration: 2.0781662
       messages: 
       output: 
       stacktrace: 
@@ -685,7 +801,7 @@ MonoBehaviour:
       name: first_play_mode_test
       fullName: SampleTests.first_play_mode_test
       resultStatus: 1
-      duration: 10.866461
+      duration: 2.06858
       messages: 
       output: 
       stacktrace: 
@@ -701,7 +817,7 @@ MonoBehaviour:
       name: create_new_game_object_and_find_on_scene
       fullName: SampleTests.first_play_mode_test.create_new_game_object_and_find_on_scene
       resultStatus: 1
-      duration: 10.839433
+      duration: 2.0256248
       messages: 
       output: 
       stacktrace: 
@@ -718,7 +834,7 @@ MonoBehaviour:
       name: number1_and_number2_and_number3_value_plus_result_equal_30
       fullName: SampleTests.first_play_mode_test.number1_and_number2_and_number3_value_plus_result_equal_30
       resultStatus: 1
-      duration: 0.0416542
+      duration: 0.019905
       messages: 
       output: 
       stacktrace: 
@@ -735,7 +851,7 @@ MonoBehaviour:
       name: number1_and_number2_value_plus_result_equal_30
       fullName: SampleTests.first_play_mode_test.number1_and_number2_value_plus_result_equal_30
       resultStatus: 1
-      duration: 0.0205375
+      duration: 0.0169311
       messages: 
       output: 
       stacktrace: 
@@ -747,13 +863,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: PlayModeTests.dll/SampleTests/[PlayModeTests][SampleTests.first_play_mode_test][suite]
-    m_ResultText: player_movement (12,524s)
+    m_ResultText: player_flip (18,697s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: bfe90b7c
-      m_LastClickedID: 2081155519
-      m_ExpandedIDs: ae332b91c4a062b1cdd22313b9afdc20f509a25dbfe90b7cffffff7f
+      m_SelectedIDs: 5bf2b5ff
+      m_LastClickedID: -4853157
+      m_ExpandedIDs: ae332b91c4a062b15bf2b5ffcdd22313b9afdc20f509a25dffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -788,7 +904,7 @@ MonoBehaviour:
       name: UnityIleTestGudumluGelistirmeGiris
       fullName: UnityIleTestGudumluGelistirmeGiris
       resultStatus: 1
-      duration: 0.7303534
+      duration: 0.3084743
       messages: 
       output: 
       stacktrace: 
@@ -804,7 +920,7 @@ MonoBehaviour:
       name: EditTests.dll
       fullName: D:/GitHub/Repo_UnityIleTestGudumluGelistirmeGiris/UnityIleTestGudumluGelistirmeGiris/Library/ScriptAssemblies/EditTests.dll
       resultStatus: 1
-      duration: 0.6924161
+      duration: 0.2743299
       messages: 
       output: 
       stacktrace: 
@@ -820,7 +936,7 @@ MonoBehaviour:
       name: Movements
       fullName: Movements
       resultStatus: 1
-      duration: 0.6906774
+      duration: 0.273323
       messages: 
       output: 
       stacktrace: 
@@ -831,12 +947,133 @@ MonoBehaviour:
       categories: []
       parentId: 1014
       parentUniqueId: '[EditTests.dll][suite]'
+    - id: 1001
+      uniqueId: EditTests.dll/Movements/[EditTests][Movements.player_flip][suite]
+      name: player_flip
+      fullName: Movements.player_flip
+      resultStatus: 1
+      duration: 0.2718724
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: EditTests.dll/[EditTests][Movements][suite]
+    - id: 1007
+      uniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
+      resultStatus: 1
+      duration: 0.2329703
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_flip][suite]
+    - id: 1005
+      uniqueId: EditTests.dll/Movements/player_flip/player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value/[EditTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
+      resultStatus: 1
+      duration: 0.2115863
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+    - id: 1006
+      uniqueId: EditTests.dll/Movements/player_flip/player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value/[EditTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
+      resultStatus: 1
+      duration: 0.0017135
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+    - id: 1004
+      uniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
+      name: player_get_input_value_body_scale_x_result_equal_input_value
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value
+      resultStatus: 1
+      duration: 0.0255075
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_flip][suite]
+    - id: 1002
+      uniqueId: EditTests.dll/Movements/player_flip/player_get_input_value_body_scale_x_result_equal_input_value/[EditTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)]
+      name: player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
+      resultStatus: 1
+      duration: 0.0020131
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
+    - id: 1003
+      uniqueId: EditTests.dll/Movements/player_flip/player_get_input_value_body_scale_x_result_equal_input_value/[EditTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)]
+      name: player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
+      resultStatus: 1
+      duration: 0.0014152
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
     - id: 1009
       uniqueId: EditTests.dll/Movements/[EditTests][Movements.player_movement][suite]
       name: player_movement
       fullName: Movements.player_movement
       resultStatus: 1
-      duration: 0.6895679
+      duration: 0.1990669
       messages: 
       output: 
       stacktrace: 
@@ -852,7 +1089,7 @@ MonoBehaviour:
       name: move_10_meters_left_end_position_greater_than_start_position
       fullName: Movements.player_movement.move_10_meters_left_end_position_greater_than_start_position
       resultStatus: 1
-      duration: 0.643464
+      duration: 0.1525405
       messages: 
       output: 
       stacktrace: 
@@ -869,7 +1106,7 @@ MonoBehaviour:
       name: move_10_meters_right_end_position_greater_than_start_position
       fullName: Movements.player_movement.move_10_meters_right_end_position_greater_than_start_position
       resultStatus: 1
-      duration: 0.002703
+      duration: 0.0025409
       messages: 
       output: 
       stacktrace: 
@@ -886,7 +1123,7 @@ MonoBehaviour:
       name: move_10_meters_right_or_left_not_equal_start_position
       fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position
       resultStatus: 1
-      duration: 0.0279222
+      duration: 0.0274571
       messages: 
       output: 
       stacktrace: 
@@ -902,7 +1139,7 @@ MonoBehaviour:
       name: move_10_meters_right_or_left_not_equal_start_position(1.0f)
       fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(1.0f)
       resultStatus: 1
-      duration: 0.0105767
+      duration: 0.0097854
       messages: 
       output: 
       stacktrace: 
@@ -919,7 +1156,7 @@ MonoBehaviour:
       name: move_10_meters_right_or_left_not_equal_start_position(-1.0f)
       fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(-1.0f)
       resultStatus: 1
-      duration: 0.0012998
+      duration: 0.0026825
       messages: 
       output: 
       stacktrace: 
@@ -936,7 +1173,7 @@ MonoBehaviour:
       name: SampleTests
       fullName: SampleTests
       resultStatus: 1
-      duration: 0.034831
+      duration: 0.0101574
       messages: 
       output: 
       stacktrace: 
@@ -952,7 +1189,7 @@ MonoBehaviour:
       name: first_edit_test_script
       fullName: SampleTests.first_edit_test_script
       resultStatus: 1
-      duration: 0.0334122
+      duration: 0.0018642
       messages: 
       output: 
       stacktrace: 
@@ -968,7 +1205,7 @@ MonoBehaviour:
       name: number1_and_number2_and_number3_value_plus_result_equal_30
       fullName: SampleTests.first_edit_test_script.number1_and_number2_and_number3_value_plus_result_equal_30
       resultStatus: 1
-      duration: 0.0165817
+      duration: 0.0005992
       messages: 
       output: 
       stacktrace: 
@@ -985,7 +1222,7 @@ MonoBehaviour:
       name: number1_and_number2_value_plus_result_equal_30
       fullName: SampleTests.first_edit_test_script.number1_and_number2_value_plus_result_equal_30
       resultStatus: 1
-      duration: 0.0004095
+      duration: 0.0002687
       messages: 
       output: 
       stacktrace: 
@@ -997,13 +1234,20 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: EditTests.dll/SampleTests/[EditTests][SampleTests.first_edit_test_script][suite]
-    m_ResultText: player_movement (0,690s)
+    m_ResultText: 'player_flip (0,272s)
+
+      ---
+
+      You are trying to create
+      a MonoBehaviour using the ''new'' keyword.  This is not allowed.  MonoBehaviours
+      can only be added using AddComponent(). Alternatively, your script can inherit
+      from ScriptableObject or no base class at all'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 734b5c7d
-      m_LastClickedID: 2103200627
-      m_ExpandedIDs: c69f8aa55d2e86eeb9afdc20f509a25db957b166734b5c7dffffff7f
+      m_SelectedIDs: a7a1fd4d
+      m_LastClickedID: 1308467623
+      m_ExpandedIDs: c69f8aa55d2e86eefcf7d7f0b9afdc20a7a1fd4df509a25db957b166ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1049,10 +1293,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1570
-    y: 512
-    width: 428
-    height: 478
+    x: 1578
+    y: 511
+    width: 434
+    height: 479
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1070,22 +1314,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_GameFolders/Scripts/Concretes/Inputs
+    - Assets/_GameFolders/Scripts/Tests/PlayModeTests
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_GameFolders/Scripts/Concretes/Inputs
+  - Assets/_GameFolders/Scripts/Tests/PlayModeTests
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\GitHub\Repo_UnityIleTestGudumluGelistirmeGiris\UnityIleTestGudumluGelistirmeGiris
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 98a10000
-    m_LastClickedID: 41368
-    m_ExpandedIDs: 00000000f8620000fa620000fe62000000630000026300000463000006630000086300003a63000028960000d897000000ca9a3b
+    m_SelectedIDs: 30800000
+    m_LastClickedID: 32816
+    m_ExpandedIDs: 00000000fc620000fe62000000630000026300000463000006630000086300000a6300000c6300000e630000b292000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1113,7 +1357,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f8620000fa620000fc620000fe6200000063000002630000046300000663000008630000
+    m_ExpandedIDs: 00000000fc620000fe62000000630000026300000463000006630000086300000a6300000c6300000e630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1138,9 +1382,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 9aa10000
-    m_LastClickedInstanceID: 41370
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000076630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1157,7 +1401,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 4}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1189,9 +1433,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2920
+    x: 2919
     y: 81
-    width: 506
+    width: 507
     height: 909
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1230,10 +1474,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1570
+    x: 1578
     y: 81
-    width: 428
-    height: 410
+    width: 434
+    height: 409
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1243,7 +1487,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 84bdffffcabdffffc4bfffff90c1ffffd6c1ffff70c3ffff2ec6ffff74c6ffff2ec8ffff50c9ffff96c9ffff10cbffffd2ccffff18cdffff92ceffff84d1ffffcad1ffff86d3ffffded3ffff16d8ffff92d8ffffd8d8ffff7adaffffacdbfffff2dbffff8eddffff30e2ffff76e2ffff0ce4ffff26e5ffff6ce5ffffe6e6ffffa0eaffffe6eaffff78ecffff34efffff7aeffffffcf0ffff20f2ffff68f2ffffe2f3ffff76f9ffff06fbffff
+      m_ExpandedIDs: 0a99ffff5099ffff529bffff849dffffbc9fffff48a1ffff8ea1ffff90a3ffff22a4ffff8ea4ffffd4a4ffffd6a6ffff68a7ffff86aaffff88aaffffceaaffff8cacffff0eaeffff76afffff2ab3ffff2cb3ffff72b3ffff30b5ffff20b7ffff66b7ffff24b9ffff5abaffffa6baffff60bbffff62bbffff88bcffffdebcffff24bdffffe2beffffcec0ffff14c1ffffd2c2ffff50c3ffff02c9ffff48c9ffff4acbffff92ccffff82cfffffb8d1ffff04d5ffff88d5ffffa2d7ffffe8d8ffff36e2ffff40e2ffff78e2ffffdee3ffff2ae4ffff70e4ffff92e6ffff06fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1287,9 +1531,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1999
+    x: 2013
     y: 81
-    width: 919
+    width: 904
     height: 485
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1514,9 +1758,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.12901822, y: -0.43117055, z: 0.031510256}
+    m_Target: {x: -3.1006763, y: 0.5549111, z: 0.067307815}
     speed: 2
-    m_Value: {x: -0.12901822, y: -0.43117055, z: 0.031510256}
+    m_Value: {x: -3.1006763, y: 0.5549111, z: 0.067307815}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1567,9 +1811,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.8489704
+    m_Target: 18.037802
     speed: 2
-    m_Value: 6.8489704
+    m_Value: 18.037802
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1614,9 +1858,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1999
+    x: 2013
     y: 587
-    width: 919
+    width: 904
     height: 403
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1628,7 +1872,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 919, y: 382}
+  m_TargetSize: {x: 904, y: 382}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1643,8 +1887,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -459.5
-    m_HBaseRangeMax: 459.5
+    m_HBaseRangeMin: -452
+    m_HBaseRangeMax: 452
     m_VBaseRangeMin: -191
     m_VBaseRangeMax: 191
     m_HAllowExceedBaseRangeMin: 1
@@ -1664,23 +1908,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 919
+      width: 904
       height: 382
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 459.5, y: 191}
+    m_Translation: {x: 452, y: 191}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -459.5
+      x: -452
       y: -191
-      width: 919
+      width: 904
       height: 382
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 919, y: 403}
+  m_LastWindowPixelSize: {x: 904, y: 403}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1706,10 +1950,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1570
-    y: 512
-    width: 428
-    height: 478
+    x: 1578
+    y: 511
+    width: 434
+    height: 479
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
