@@ -1,6 +1,7 @@
 using NSubstitute;
 using NUnit.Framework;
 using UnityTddBeginner.Abstracts.Combats;
+using UnityTddBeginner.Abstracts.ScriptableObjects;
 using UnityTddBeginner.Combats;
 
 namespace Combats
@@ -17,7 +18,9 @@ namespace Combats
         
         private IHealth GetHealth(int maxHealth)
         {
-            IHealth health = new Health(maxHealth);
+            IStats stats = Substitute.For<IStats>();
+            stats.MaxHealth.Returns(maxHealth);
+            IHealth health = new Health(stats);
             return health;
         }
         

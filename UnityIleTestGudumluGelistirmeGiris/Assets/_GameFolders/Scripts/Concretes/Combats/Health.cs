@@ -1,20 +1,23 @@
 ﻿using UnityEngine;
 using UnityTddBeginner.Abstracts.Combats;
+using UnityTddBeginner.Abstracts.ScriptableObjects;
 
 namespace UnityTddBeginner.Combats
 {
     public class Health : IHealth
     {
         int _currentHealth = 0;
+        int _maxHealth = 0;
 
         bool IsDead => _currentHealth <= 0;
         public int CurrentHealth => _currentHealth;
         public event System.Action OnTookDamage;
         public event System.Action OnDead;
 
-        public Health(int maxHealth)
+        public Health(IStats stats)
         {
-            _currentHealth = maxHealth;
+            _maxHealth = stats.MaxHealth;
+            _currentHealth = _maxHealth;
         }
 
         public void TakeDamage(IAttacker attacker)

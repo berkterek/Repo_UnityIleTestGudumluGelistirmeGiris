@@ -20,7 +20,6 @@ namespace UnityTddBeginner.Controllers
         
         //Jump or Double Jump
         //Attack
-        //Health
         //Collect
         //Animation
         public IInputReader InputReader { get; set; }
@@ -32,7 +31,7 @@ namespace UnityTddBeginner.Controllers
             InputReader = new InputReader();
             _mover = new PlayerMoveWithTranslate(this);
             _flip = new PlayerFlipWithScale(this);
-            Health = new Health(_playerStats.MaxHealth);
+            Health = new Health(Stats);
         }
 
         void Update()
