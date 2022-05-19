@@ -8,7 +8,12 @@ namespace UnityTddBeginner.ScriptableObjects
     {
         [Header("Move Information")]
         [SerializeField] float _moveSpeed = 5f;
+
+        [Header("Combat Info")] 
+        [SerializeField] int _maxHealth = 10;
+        
         
         public float MoveSpeed => _moveSpeed;
+        public int MaxHealth => _maxHealth;
     }    
 }

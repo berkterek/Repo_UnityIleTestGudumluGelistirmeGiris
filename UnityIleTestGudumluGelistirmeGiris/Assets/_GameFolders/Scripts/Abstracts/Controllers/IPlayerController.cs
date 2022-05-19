@@ -1,4 +1,5 @@
-﻿using UnityTddBeginner.Abstracts.Inputs;
+﻿using UnityTddBeginner.Abstracts.Combats;
+using UnityTddBeginner.Abstracts.Inputs;
 using UnityTddBeginner.Abstracts.ScriptableObjects;
 
 namespace UnityTddBeginner.Abstracts.Controllers
@@ -7,5 +8,11 @@ namespace UnityTddBeginner.Abstracts.Controllers
     {
         IInputReader InputReader { get; set; }
         IPlayerStats Stats { get; }
+        IHealth Health { get; }
+    }
+
+    public interface IEnemyController : IEntityController
+    {
+        IAttacker Attacker { get; }
     }
 }
