@@ -44,5 +44,36 @@ namespace Combats
 
             Assert.AreEqual(maxHealth - damageValue, _player.Health.CurrentHealth);
         }
+
+        [UnityTest]
+        [TestCase(0f,1f,ExpectedResult = (IEnumerator)null)]
+        [TestCase(-1f,0f,ExpectedResult = (IEnumerator)null)]
+        [TestCase(1f,0f,ExpectedResult = (IEnumerator)null)]
+        public IEnumerator player_take_one_damage_from_up_left_right_side(float x, float y)
+        {
+            Vector3 attackPosition = new Vector3(x, y, 0f);
+            int damageValue = 1;
+            _enemyStats.CalculateDamage.Returns(damageValue);
+            int maxHealth = _player.Health.CurrentHealth;
+            Vector3 playerNearestPosition = _player.transform.position + (attackPosition / 2f);
+            _enemy.transform.position = playerNearestPosition;
+            
+            yield return new WaitForSeconds(1f);
+            
+            Assert.AreEqual(maxHealth - damageValue, _player.Health.CurrentHealth);
+        }
+
+        [UnityTest]
+        public IEnumerator player_take_none_damage_from_down_side()
+        {
+            _enemyStats.CalculateDamage.Returns(1);
+            int maxHealth = _player.Health.CurrentHealth;
+            Vector3 playerNearestPosition = _player.transform.position + (Vector3.down / 2f);
+            _enemy.transform.position = playerNearestPosition;
+            
+            yield return new WaitForSeconds(1f);
+            
+            Assert.AreEqual(maxHealth, _player.Health.CurrentHealth);
+        }
     }
 }

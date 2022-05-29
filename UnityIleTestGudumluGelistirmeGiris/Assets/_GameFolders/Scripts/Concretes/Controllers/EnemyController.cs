@@ -23,7 +23,8 @@ namespace UnityTddBeginner.Controllers
         {
             if (other.collider.TryGetComponent(out IPlayerController playerController))
             {
-                Debug.Log("Attack to Player");
+                if (other.contacts[0].normal.y < 0f) return;
+                
                 playerController.Health.TakeDamage(Attacker);
             }
         }
