@@ -18,8 +18,7 @@ namespace UnityTddBeginner.Controllers
         IMover _mover;
         IFlip _flip;
         
-        //Jump or Double Jump
-        //Attack
+        //Jump or Double Jump or many many jump
         //Collect
         //Animation
         public IInputReader InputReader { get; set; }

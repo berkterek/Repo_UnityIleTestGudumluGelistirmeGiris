@@ -4,8 +4,7 @@ using UnityTddBeginner.Abstracts.Movements;
 using UnityTddBeginner.Movements;
 using NSubstitute;
 using UnityEngine;
-using UnityTddBeginner.Abstracts.Inputs;
-using UnityTddBeginner.Abstracts.ScriptableObjects;
+using UnityTddBeginner.EditTests.Helpers;
 
 namespace Movements
 {
@@ -13,11 +12,7 @@ namespace Movements
     {
         private IPlayerController GetPlayer()
         {
-            IPlayerController playerController = Substitute.For<IPlayerController>();
-            GameObject gameObject = new GameObject();
-            playerController.transform.Returns(gameObject.transform);
-            playerController.InputReader = Substitute.For<IInputReader>();
-            playerController.Stats.Returns(Substitute.For<IPlayerStats>());
+            var playerController = EditModeHelper.GetPlayerController();
             playerController.Stats.MoveSpeed.Returns(5f);
 
             return playerController;

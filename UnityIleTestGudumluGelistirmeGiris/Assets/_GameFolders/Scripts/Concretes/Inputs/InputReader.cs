@@ -6,16 +6,19 @@ namespace UnityTddBeginner.Inputs
 {
     public class InputReader : IInputReader
     {
+        readonly GameInputActions _input;
+        
         public float Horizontal { get; private set; }
+        public bool Jump => _input.Player.Jump.WasPressedThisFrame();
 
         public InputReader()
         {
-            GameInputActions input = new GameInputActions();
+            _input = new GameInputActions();
 
-            input.Player.Move.performed += HandleOnMoved;
-            input.Player.Move.canceled += HandleOnMoved;
+            _input.Player.Move.performed += HandleOnMoved;
+            _input.Player.Move.canceled += HandleOnMoved;
             
-            input.Enable();
+            _input.Enable();
         }
 
         void HandleOnMoved(InputAction.CallbackContext context)

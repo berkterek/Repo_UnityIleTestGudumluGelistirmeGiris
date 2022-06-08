@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 2249
-    y: 302.5
-    width: 1206
-    height: 715
+    x: 1573
+    y: 51
+    width: 1851
+    height: 984
   m_ShowMode: 4
-  m_Title: 
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_Title: Test Runner
+  m_RootView: {fileID: 7}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -32,23 +32,25 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 30
-    width: 1206
-    height: 665
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
-  vertical: 0
-  controlID: 119
+    y: 441
+    width: 416
+    height: 493
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 22}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -57,147 +59,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 921
-    y: 0
-    width: 285
-    height: 665
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 228
-    height: 394
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 394
-    width: 921
-    height: 271
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
-  m_Panes:
-  - {fileID: 12}
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
+  - {fileID: 6}
   - {fileID: 2}
-  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1206
-    height: 715
-  m_MinSize: {x: 875, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1206
-    height: 30
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
-  m_LoadedToolbars: []
-  m_MainToolbar: {fileID: 18}
-  m_LastLoadedLayoutName: Default
---- !u!114 &8
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 695
-    width: 1206
-    height: 20
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
+    width: 416
+    height: 934
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 146
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,14 +94,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 921
-    height: 665
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 92
---- !u!114 &10
+    y: 30
+    width: 1851
+    height: 934
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 228
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,23 +110,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
+  m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 1413
     y: 0
-    width: 921
-    height: 394
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 93
---- !u!114 &11
+    width: 438
+    height: 934
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 16}
+  - {fileID: 13}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 2
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -262,19 +145,1830 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 228
+    x: 0
     y: 0
-    width: 693
-    height: 394
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+    width: 416
+    height: 441
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 16}
+  - {fileID: 19}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 4}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1851
+    height: 984
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1851
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: Layout311
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 964
+    width: 1851
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1413
+    height: 934
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 0
+  controlID: 221
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 416
+    y: 0
+    width: 997
+    height: 934
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 15}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 3
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1968
+    y: 73
+    width: 1032
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper: []
+    m_ValueSerializationHelper: []
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 0}
+  m_BreadCrumbs: []
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 390, y: 390}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Lighting
+    m_Image: {fileID: -1347227620855488341, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2986
+    y: 81
+    width: 437
+    height: 902
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 360}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Navigation
+    m_Image: {fileID: 1087843850482249999, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 3002
+    y: 73
+    width: 453
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 800, y: 250}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Package Manager
+    m_Image: {fileID: -2824328813065806953, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1968
+    y: 73
+    width: 1032
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2986
+    y: 81
+    width: 437
+    height: 913
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 319
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 632
+    - 211
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 843
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 16}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[UnityIleTestGudumluGelistirmeGiris][suite]'
+      name: UnityIleTestGudumluGelistirmeGiris
+      fullName: UnityIleTestGudumluGelistirmeGiris
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1035
+      uniqueId: '[PlayModeTests.dll][suite]'
+      name: PlayModeTests.dll
+      fullName: D:/GitHub/Repo_UnityIleTestGudumluGelistirmeGiris/UnityIleTestGudumluGelistirmeGiris/Library/ScriptAssemblies/PlayModeTests.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[UnityIleTestGudumluGelistirmeGiris][suite]'
+    - id: 1037
+      uniqueId: PlayModeTests.dll/[PlayModeTests][Combats][suite]
+      name: Combats
+      fullName: Combats
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1035
+      parentUniqueId: '[PlayModeTests.dll][suite]'
+    - id: 1014
+      uniqueId: PlayModeTests.dll/Combats/[PlayModeTests][Combats.player_attack][suite]
+      name: player_attack
+      fullName: Combats.player_attack
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1037
+      parentUniqueId: PlayModeTests.dll/[PlayModeTests][Combats][suite]
+    - id: 1019
+      uniqueId: PlayModeTests.dll/Combats/player_attack/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down][suite]
+      name: player_attack_enemy_left_right_down
+      fullName: Combats.player_attack.player_attack_enemy_left_right_down
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: PlayModeTests.dll/Combats/[PlayModeTests][Combats.player_attack][suite]
+    - id: 1016
+      uniqueId: PlayModeTests.dll/Combats/player_attack/player_attack_enemy_left_right_down/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down(-1.0f,0.0f)]
+      name: player_attack_enemy_left_right_down(-1.0f,0.0f)
+      fullName: Combats.player_attack.player_attack_enemy_left_right_down(-1.0f,0.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: PlayModeTests.dll/Combats/player_attack/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down][suite]
+    - id: 1017
+      uniqueId: PlayModeTests.dll/Combats/player_attack/player_attack_enemy_left_right_down/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down(1.0f,0.0f)]
+      name: player_attack_enemy_left_right_down(1.0f,0.0f)
+      fullName: Combats.player_attack.player_attack_enemy_left_right_down(1.0f,0.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: PlayModeTests.dll/Combats/player_attack/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down][suite]
+    - id: 1018
+      uniqueId: PlayModeTests.dll/Combats/player_attack/player_attack_enemy_left_right_down/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down(0.0f,-1.0f)]
+      name: player_attack_enemy_left_right_down(0.0f,-1.0f)
+      fullName: Combats.player_attack.player_attack_enemy_left_right_down(0.0f,-1.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: PlayModeTests.dll/Combats/player_attack/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down][suite]
+    - id: 1015
+      uniqueId: PlayModeTests.dll/Combats/player_attack/[PlayModeTests][Combats.player_attack.player_attack_enemy_one_time]
+      name: player_attack_enemy_one_time
+      fullName: Combats.player_attack.player_attack_enemy_one_time
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: PlayModeTests.dll/Combats/[PlayModeTests][Combats.player_attack][suite]
+    - id: 1020
+      uniqueId: PlayModeTests.dll/Combats/[PlayModeTests][Combats.player_health][suite]
+      name: player_health
+      fullName: Combats.player_health
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1037
+      parentUniqueId: PlayModeTests.dll/[PlayModeTests][Combats][suite]
+    - id: 1030
+      uniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_none_damage_from_down_side]
+      name: player_take_none_damage_from_down_side
+      fullName: Combats.player_health.player_take_none_damage_from_down_side
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1020
+      parentUniqueId: PlayModeTests.dll/Combats/[PlayModeTests][Combats.player_health][suite]
+    - id: 1029
+      uniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side][suite]
+      name: player_take_one_damage_from_up_left_right_side
+      fullName: Combats.player_health.player_take_one_damage_from_up_left_right_side
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1020
+      parentUniqueId: PlayModeTests.dll/Combats/[PlayModeTests][Combats.player_health][suite]
+    - id: 1026
+      uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_from_up_left_right_side/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side(0.0f,1.0f)]
+      name: player_take_one_damage_from_up_left_right_side(0.0f,1.0f)
+      fullName: Combats.player_health.player_take_one_damage_from_up_left_right_side(0.0f,1.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1029
+      parentUniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side][suite]
+    - id: 1027
+      uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_from_up_left_right_side/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side(-1.0f,0.0f)]
+      name: player_take_one_damage_from_up_left_right_side(-1.0f,0.0f)
+      fullName: Combats.player_health.player_take_one_damage_from_up_left_right_side(-1.0f,0.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1029
+      parentUniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side][suite]
+    - id: 1028
+      uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_from_up_left_right_side/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side(1.0f,0.0f)]
+      name: player_take_one_damage_from_up_left_right_side(1.0f,0.0f)
+      fullName: Combats.player_health.player_take_one_damage_from_up_left_right_side(1.0f,0.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1029
+      parentUniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side][suite]
+    - id: 1025
+      uniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time][suite]
+      name: player_take_one_damage_in_one_time
+      fullName: Combats.player_health.player_take_one_damage_in_one_time
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1020
+      parentUniqueId: PlayModeTests.dll/Combats/[PlayModeTests][Combats.player_health][suite]
+    - id: 1021
+      uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_in_one_time/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time(1)]
+      name: player_take_one_damage_in_one_time(1)
+      fullName: Combats.player_health.player_take_one_damage_in_one_time(1)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time][suite]
+    - id: 1022
+      uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_in_one_time/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time(2)]
+      name: player_take_one_damage_in_one_time(2)
+      fullName: Combats.player_health.player_take_one_damage_in_one_time(2)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time][suite]
+    - id: 1023
+      uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_in_one_time/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time(5)]
+      name: player_take_one_damage_in_one_time(5)
+      fullName: Combats.player_health.player_take_one_damage_in_one_time(5)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time][suite]
+    - id: 1024
+      uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_in_one_time/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time(10)]
+      name: player_take_one_damage_in_one_time(10)
+      fullName: Combats.player_health.player_take_one_damage_in_one_time(10)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time][suite]
+    - id: 1036
+      uniqueId: PlayModeTests.dll/[PlayModeTests][Movements][suite]
+      name: Movements
+      fullName: Movements
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1035
+      parentUniqueId: '[PlayModeTests.dll][suite]'
+    - id: 1001
+      uniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_flip][suite]
+      name: player_flip
+      fullName: Movements.player_flip
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1036
+      parentUniqueId: PlayModeTests.dll/[PlayModeTests][Movements][suite]
+    - id: 1007
+      uniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_flip][suite]
+    - id: 1005
+      uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+    - id: 1006
+      uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+    - id: 1004
+      uniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
+      name: player_get_input_value_body_scale_x_result_equal_input_value
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_flip][suite]
+    - id: 1002
+      uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_body_scale_x_result_equal_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)]
+      name: player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
+    - id: 1003
+      uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_body_scale_x_result_equal_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)]
+      name: player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
+    - id: 1008
+      uniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_movement][suite]
+      name: player_movement
+      fullName: Movements.player_movement
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1036
+      parentUniqueId: PlayModeTests.dll/[PlayModeTests][Movements][suite]
+    - id: 1013
+      uniqueId: PlayModeTests.dll/Movements/player_movement/[PlayModeTests][Movements.player_movement.player_move_left_end_position_greater_than_start_position]
+      name: player_move_left_end_position_greater_than_start_position
+      fullName: Movements.player_movement.player_move_left_end_position_greater_than_start_position
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_movement][suite]
+    - id: 1011
+      uniqueId: PlayModeTests.dll/Movements/player_movement/[PlayModeTests][Movements.player_movement.player_move_left_or_right_not_equal_start_position][suite]
+      name: player_move_left_or_right_not_equal_start_position
+      fullName: Movements.player_movement.player_move_left_or_right_not_equal_start_position
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_movement][suite]
+    - id: 1009
+      uniqueId: PlayModeTests.dll/Movements/player_movement/player_move_left_or_right_not_equal_start_position/[PlayModeTests][Movements.player_movement.player_move_left_or_right_not_equal_start_position(1.0f)]
+      name: player_move_left_or_right_not_equal_start_position(1.0f)
+      fullName: Movements.player_movement.player_move_left_or_right_not_equal_start_position(1.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: PlayModeTests.dll/Movements/player_movement/[PlayModeTests][Movements.player_movement.player_move_left_or_right_not_equal_start_position][suite]
+    - id: 1010
+      uniqueId: PlayModeTests.dll/Movements/player_movement/player_move_left_or_right_not_equal_start_position/[PlayModeTests][Movements.player_movement.player_move_left_or_right_not_equal_start_position(-1.0f)]
+      name: player_move_left_or_right_not_equal_start_position(-1.0f)
+      fullName: Movements.player_movement.player_move_left_or_right_not_equal_start_position(-1.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: PlayModeTests.dll/Movements/player_movement/[PlayModeTests][Movements.player_movement.player_move_left_or_right_not_equal_start_position][suite]
+    - id: 1012
+      uniqueId: PlayModeTests.dll/Movements/player_movement/[PlayModeTests][Movements.player_movement.player_move_right_end_position_greater_than_start_position]
+      name: player_move_right_end_position_greater_than_start_position
+      fullName: Movements.player_movement.player_move_right_end_position_greater_than_start_position
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_movement][suite]
+    - id: 1038
+      uniqueId: PlayModeTests.dll/[PlayModeTests][SampleTests][suite]
+      name: SampleTests
+      fullName: SampleTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1035
+      parentUniqueId: '[PlayModeTests.dll][suite]'
+    - id: 1031
+      uniqueId: PlayModeTests.dll/SampleTests/[PlayModeTests][SampleTests.first_play_mode_test][suite]
+      name: first_play_mode_test
+      fullName: SampleTests.first_play_mode_test
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1038
+      parentUniqueId: PlayModeTests.dll/[PlayModeTests][SampleTests][suite]
+    - id: 1034
+      uniqueId: PlayModeTests.dll/SampleTests/first_play_mode_test/[PlayModeTests][SampleTests.first_play_mode_test.create_new_game_object_and_find_on_scene]
+      name: create_new_game_object_and_find_on_scene
+      fullName: SampleTests.first_play_mode_test.create_new_game_object_and_find_on_scene
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1031
+      parentUniqueId: PlayModeTests.dll/SampleTests/[PlayModeTests][SampleTests.first_play_mode_test][suite]
+    - id: 1033
+      uniqueId: PlayModeTests.dll/SampleTests/first_play_mode_test/[PlayModeTests][SampleTests.first_play_mode_test.number1_and_number2_and_number3_value_plus_result_equal_30]
+      name: number1_and_number2_and_number3_value_plus_result_equal_30
+      fullName: SampleTests.first_play_mode_test.number1_and_number2_and_number3_value_plus_result_equal_30
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1031
+      parentUniqueId: PlayModeTests.dll/SampleTests/[PlayModeTests][SampleTests.first_play_mode_test][suite]
+    - id: 1032
+      uniqueId: PlayModeTests.dll/SampleTests/first_play_mode_test/[PlayModeTests][SampleTests.first_play_mode_test.number1_and_number2_value_plus_result_equal_30]
+      name: number1_and_number2_value_plus_result_equal_30
+      fullName: SampleTests.first_play_mode_test.number1_and_number2_value_plus_result_equal_30
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1031
+      parentUniqueId: PlayModeTests.dll/SampleTests/[PlayModeTests][SampleTests.first_play_mode_test][suite]
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ae332b91b9afdc20f509a25dffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 16}
+    m_NewResultList:
+    - id: 1040
+      uniqueId: '[UnityIleTestGudumluGelistirmeGiris][suite]'
+      name: UnityIleTestGudumluGelistirmeGiris
+      fullName: UnityIleTestGudumluGelistirmeGiris
+      resultStatus: 1
+      duration: 0.0504835
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1082
+      uniqueId: '[EditTests.dll][suite]'
+      name: EditTests.dll
+      fullName: D:/GitHub/Repo_UnityIleTestGudumluGelistirmeGiris/UnityIleTestGudumluGelistirmeGiris/Library/ScriptAssemblies/EditTests.dll
+      resultStatus: 1
+      duration: 0.0294346
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1040
+      parentUniqueId: '[UnityIleTestGudumluGelistirmeGiris][suite]'
+    - id: 1084
+      uniqueId: EditTests.dll/[EditTests][Combats][suite]
+      name: Combats
+      fullName: Combats
+      resultStatus: 1
+      duration: 0.0577984
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1082
+      parentUniqueId: '[EditTests.dll][suite]'
+    - id: 1056
+      uniqueId: EditTests.dll/Combats/[EditTests][Combats.health][suite]
+      name: health
+      fullName: Combats.health
+      resultStatus: 1
+      duration: 0.0543262
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1084
+      parentUniqueId: EditTests.dll/[EditTests][Combats][suite]
+    - id: 1066
+      uniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_current_health_not_less_then_zero][suite]
+      name: take_damage_current_health_not_less_then_zero
+      fullName: Combats.health.take_damage_current_health_not_less_then_zero
+      resultStatus: 1
+      duration: 0.0120802
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1056
+      parentUniqueId: EditTests.dll/Combats/[EditTests][Combats.health][suite]
+    - id: 1062
+      uniqueId: EditTests.dll/Combats/health/take_damage_current_health_not_less_then_zero/[EditTests][Combats.health.take_damage_current_health_not_less_then_zero(1)]
+      name: take_damage_current_health_not_less_then_zero(1)
+      fullName: Combats.health.take_damage_current_health_not_less_then_zero(1)
+      resultStatus: 1
+      duration: 0.0062036
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_current_health_not_less_then_zero][suite]
+    - id: 1063
+      uniqueId: EditTests.dll/Combats/health/take_damage_current_health_not_less_then_zero/[EditTests][Combats.health.take_damage_current_health_not_less_then_zero(2)]
+      name: take_damage_current_health_not_less_then_zero(2)
+      fullName: Combats.health.take_damage_current_health_not_less_then_zero(2)
+      resultStatus: 1
+      duration: 0.0007452
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_current_health_not_less_then_zero][suite]
+    - id: 1064
+      uniqueId: EditTests.dll/Combats/health/take_damage_current_health_not_less_then_zero/[EditTests][Combats.health.take_damage_current_health_not_less_then_zero(5)]
+      name: take_damage_current_health_not_less_then_zero(5)
+      fullName: Combats.health.take_damage_current_health_not_less_then_zero(5)
+      resultStatus: 1
+      duration: 0.0004781
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_current_health_not_less_then_zero][suite]
+    - id: 1065
+      uniqueId: EditTests.dll/Combats/health/take_damage_current_health_not_less_then_zero/[EditTests][Combats.health.take_damage_current_health_not_less_then_zero(10)]
+      name: take_damage_current_health_not_less_then_zero(10)
+      fullName: Combats.health.take_damage_current_health_not_less_then_zero(10)
+      resultStatus: 1
+      duration: 0.000517
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_current_health_not_less_then_zero][suite]
+    - id: 1061
+      uniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_not_equal_max_health][suite]
+      name: take_damage_not_equal_max_health
+      fullName: Combats.health.take_damage_not_equal_max_health
+      resultStatus: 1
+      duration: 0.0151004
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1056
+      parentUniqueId: EditTests.dll/Combats/[EditTests][Combats.health][suite]
+    - id: 1057
+      uniqueId: EditTests.dll/Combats/health/take_damage_not_equal_max_health/[EditTests][Combats.health.take_damage_not_equal_max_health(1)]
+      name: take_damage_not_equal_max_health(1)
+      fullName: Combats.health.take_damage_not_equal_max_health(1)
+      resultStatus: 1
+      duration: 0.0063569
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1061
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_not_equal_max_health][suite]
+    - id: 1058
+      uniqueId: EditTests.dll/Combats/health/take_damage_not_equal_max_health/[EditTests][Combats.health.take_damage_not_equal_max_health(2)]
+      name: take_damage_not_equal_max_health(2)
+      fullName: Combats.health.take_damage_not_equal_max_health(2)
+      resultStatus: 1
+      duration: 0.0006507
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1061
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_not_equal_max_health][suite]
+    - id: 1059
+      uniqueId: EditTests.dll/Combats/health/take_damage_not_equal_max_health/[EditTests][Combats.health.take_damage_not_equal_max_health(5)]
+      name: take_damage_not_equal_max_health(5)
+      fullName: Combats.health.take_damage_not_equal_max_health(5)
+      resultStatus: 1
+      duration: 0.0004354
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1061
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_not_equal_max_health][suite]
+    - id: 1060
+      uniqueId: EditTests.dll/Combats/health/take_damage_not_equal_max_health/[EditTests][Combats.health.take_damage_not_equal_max_health(10)]
+      name: take_damage_not_equal_max_health(10)
+      fullName: Combats.health.take_damage_not_equal_max_health(10)
+      resultStatus: 1
+      duration: 0.0004253
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1061
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_not_equal_max_health][suite]
+    - id: 1067
+      uniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_damage_one_on_took_damage_event_triggered_one_time]
+      name: take_damage_one_on_took_damage_event_triggered_one_time
+      fullName: Combats.health.take_damage_one_on_took_damage_event_triggered_one_time
+      resultStatus: 1
+      duration: 0.0014653
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditTests.dll/Combats/[EditTests][Combats.health][suite]
+    - id: 1078
+      uniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time][suite]
+      name: take_fatal_damage_many_time_on_took_damage_triggered_one_time
+      fullName: Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time
+      resultStatus: 1
+      duration: 0.0074531
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1056
+      parentUniqueId: EditTests.dll/Combats/[EditTests][Combats.health][suite]
+    - id: 1075
+      uniqueId: EditTests.dll/Combats/health/take_fatal_damage_many_time_on_took_damage_triggered_one_time/[EditTests][Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time(2)]
+      name: take_fatal_damage_many_time_on_took_damage_triggered_one_time(2)
+      fullName: Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time(2)
+      resultStatus: 1
+      duration: 0.0012557
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1078
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time][suite]
+    - id: 1076
+      uniqueId: EditTests.dll/Combats/health/take_fatal_damage_many_time_on_took_damage_triggered_one_time/[EditTests][Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time(5)]
+      name: take_fatal_damage_many_time_on_took_damage_triggered_one_time(5)
+      fullName: Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time(5)
+      resultStatus: 1
+      duration: 0.0004322
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1078
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time][suite]
+    - id: 1077
+      uniqueId: EditTests.dll/Combats/health/take_fatal_damage_many_time_on_took_damage_triggered_one_time/[EditTests][Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time(10)]
+      name: take_fatal_damage_many_time_on_took_damage_triggered_one_time(10)
+      fullName: Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time(10)
+      resultStatus: 1
+      duration: 0.0004036
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1078
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time][suite]
+    - id: 1073
+      uniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_fatal_damage_on_dead_triggered]
+      name: take_fatal_damage_on_dead_triggered
+      fullName: Combats.health.take_fatal_damage_on_dead_triggered
+      resultStatus: 1
+      duration: 0.0009082
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditTests.dll/Combats/[EditTests][Combats.health][suite]
+    - id: 1072
+      uniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_many_damage_on_took_damage_event_triggered_many_time][suite]
+      name: take_many_damage_on_took_damage_event_triggered_many_time
+      fullName: Combats.health.take_many_damage_on_took_damage_event_triggered_many_time
+      resultStatus: 1
+      duration: 0.0111608
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1056
+      parentUniqueId: EditTests.dll/Combats/[EditTests][Combats.health][suite]
+    - id: 1068
+      uniqueId: EditTests.dll/Combats/health/take_many_damage_on_took_damage_event_triggered_many_time/[EditTests][Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(1)]
+      name: take_many_damage_on_took_damage_event_triggered_many_time(1)
+      fullName: Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(1)
+      resultStatus: 1
+      duration: 0.0010704
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1072
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_many_damage_on_took_damage_event_triggered_many_time][suite]
+    - id: 1069
+      uniqueId: EditTests.dll/Combats/health/take_many_damage_on_took_damage_event_triggered_many_time/[EditTests][Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(2)]
+      name: take_many_damage_on_took_damage_event_triggered_many_time(2)
+      fullName: Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(2)
+      resultStatus: 1
+      duration: 0.0004694
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1072
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_many_damage_on_took_damage_event_triggered_many_time][suite]
+    - id: 1070
+      uniqueId: EditTests.dll/Combats/health/take_many_damage_on_took_damage_event_triggered_many_time/[EditTests][Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(5)]
+      name: take_many_damage_on_took_damage_event_triggered_many_time(5)
+      fullName: Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(5)
+      resultStatus: 1
+      duration: 0.0004986
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1072
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_many_damage_on_took_damage_event_triggered_many_time][suite]
+    - id: 1071
+      uniqueId: EditTests.dll/Combats/health/take_many_damage_on_took_damage_event_triggered_many_time/[EditTests][Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(10)]
+      name: take_many_damage_on_took_damage_event_triggered_many_time(10)
+      fullName: Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(10)
+      resultStatus: 1
+      duration: 0.0006128
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1072
+      parentUniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_many_damage_on_took_damage_event_triggered_many_time][suite]
+    - id: 1074
+      uniqueId: EditTests.dll/Combats/health/[EditTests][Combats.health.take_normal_damage_on_dead_not_triggered]
+      name: take_normal_damage_on_dead_not_triggered
+      fullName: Combats.health.take_normal_damage_on_dead_not_triggered
+      resultStatus: 1
+      duration: 0.0008268
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditTests.dll/Combats/[EditTests][Combats.health][suite]
+    - id: 1083
+      uniqueId: EditTests.dll/[EditTests][Movements][suite]
+      name: Movements
+      fullName: Movements
+      resultStatus: 1
+      duration: 0.0288114
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1082
+      parentUniqueId: '[EditTests.dll][suite]'
+    - id: 1041
+      uniqueId: EditTests.dll/Movements/[EditTests][Movements.player_flip][suite]
+      name: player_flip
+      fullName: Movements.player_flip
+      resultStatus: 1
+      duration: 0.0242167
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1083
+      parentUniqueId: EditTests.dll/[EditTests][Movements][suite]
+    - id: 1047
+      uniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
+      resultStatus: 1
+      duration: 0.0084737
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1041
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_flip][suite]
+    - id: 1045
+      uniqueId: EditTests.dll/Movements/player_flip/player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value/[EditTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
+      resultStatus: 1
+      duration: 0.0038188
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1047
+      parentUniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+    - id: 1046
+      uniqueId: EditTests.dll/Movements/player_flip/player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value/[EditTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)]
+      name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
+      fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
+      resultStatus: 1
+      duration: 0.0018084
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1047
+      parentUniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
+    - id: 1044
+      uniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
+      name: player_get_input_value_body_scale_x_result_equal_input_value
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value
+      resultStatus: 1
+      duration: 0.01117
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1041
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_flip][suite]
+    - id: 1042
+      uniqueId: EditTests.dll/Movements/player_flip/player_get_input_value_body_scale_x_result_equal_input_value/[EditTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)]
+      name: player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
+      resultStatus: 1
+      duration: 0.0021132
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
+    - id: 1043
+      uniqueId: EditTests.dll/Movements/player_flip/player_get_input_value_body_scale_x_result_equal_input_value/[EditTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)]
+      name: player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
+      fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
+      resultStatus: 1
+      duration: 0.001195
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: EditTests.dll/Movements/player_flip/[EditTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
+    - id: 1048
+      uniqueId: EditTests.dll/Movements/[EditTests][Movements.player_jump][suite]
+      name: player_jump
+      fullName: Movements.player_jump
+      resultStatus: 1
+      duration: 0.0284389
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1083
+      parentUniqueId: EditTests.dll/[EditTests][Movements][suite]
+    - id: 1010
+      uniqueId: EditTests.dll/Movements/player_jump/[EditTests][Movements.player_jump.player_can_not_jump_one_time_if_can_jump_is_false]
+      name: player_can_not_jump_one_time_if_can_jump_is_false
+      fullName: Movements.player_jump.player_can_not_jump_one_time_if_can_jump_is_false
+      resultStatus: 1
+      duration: 0.0078865
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_jump][suite]
+    - id: 1009
+      uniqueId: EditTests.dll/Movements/player_jump/[EditTests][Movements.player_jump.player_jump_one_time_if_can_jump_is_true]
+      name: player_jump_one_time_if_can_jump_is_true
+      fullName: Movements.player_jump.player_jump_one_time_if_can_jump_is_true
+      resultStatus: 1
+      duration: 0.0164568
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_jump][suite]
+    - id: 1050
+      uniqueId: EditTests.dll/Movements/[EditTests][Movements.player_movement][suite]
+      name: player_movement
+      fullName: Movements.player_movement
+      resultStatus: 1
+      duration: 0.0292913
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1083
+      parentUniqueId: EditTests.dll/[EditTests][Movements][suite]
+    - id: 1055
+      uniqueId: EditTests.dll/Movements/player_movement/[EditTests][Movements.player_movement.move_10_meters_left_end_position_greater_than_start_position]
+      name: move_10_meters_left_end_position_greater_than_start_position
+      fullName: Movements.player_movement.move_10_meters_left_end_position_greater_than_start_position
+      resultStatus: 1
+      duration: 0.0040255
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1050
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_movement][suite]
+    - id: 1054
+      uniqueId: EditTests.dll/Movements/player_movement/[EditTests][Movements.player_movement.move_10_meters_right_end_position_greater_than_start_position]
+      name: move_10_meters_right_end_position_greater_than_start_position
+      fullName: Movements.player_movement.move_10_meters_right_end_position_greater_than_start_position
+      resultStatus: 1
+      duration: 0.0029698
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1050
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_movement][suite]
+    - id: 1053
+      uniqueId: EditTests.dll/Movements/player_movement/[EditTests][Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position][suite]
+      name: move_10_meters_right_or_left_not_equal_start_position
+      fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position
+      resultStatus: 1
+      duration: 0.0136611
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1050
+      parentUniqueId: EditTests.dll/Movements/[EditTests][Movements.player_movement][suite]
+    - id: 1051
+      uniqueId: EditTests.dll/Movements/player_movement/move_10_meters_right_or_left_not_equal_start_position/[EditTests][Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(1.0f)]
+      name: move_10_meters_right_or_left_not_equal_start_position(1.0f)
+      fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(1.0f)
+      resultStatus: 1
+      duration: 0.0043834
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: EditTests.dll/Movements/player_movement/[EditTests][Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position][suite]
+    - id: 1052
+      uniqueId: EditTests.dll/Movements/player_movement/move_10_meters_right_or_left_not_equal_start_position/[EditTests][Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(-1.0f)]
+      name: move_10_meters_right_or_left_not_equal_start_position(-1.0f)
+      fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(-1.0f)
+      resultStatus: 1
+      duration: 0.0021722
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: EditTests.dll/Movements/player_movement/[EditTests][Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position][suite]
+    - id: 1085
+      uniqueId: EditTests.dll/[EditTests][SampleTests][suite]
+      name: SampleTests
+      fullName: SampleTests
+      resultStatus: 1
+      duration: 0.0193751
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1082
+      parentUniqueId: '[EditTests.dll][suite]'
+    - id: 1079
+      uniqueId: EditTests.dll/SampleTests/[EditTests][SampleTests.first_edit_test_script][suite]
+      name: first_edit_test_script
+      fullName: SampleTests.first_edit_test_script
+      resultStatus: 1
+      duration: 0.0046745
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1085
+      parentUniqueId: EditTests.dll/[EditTests][SampleTests][suite]
+    - id: 1081
+      uniqueId: EditTests.dll/SampleTests/first_edit_test_script/[EditTests][SampleTests.first_edit_test_script.number1_and_number2_and_number3_value_plus_result_equal_30]
+      name: number1_and_number2_and_number3_value_plus_result_equal_30
+      fullName: SampleTests.first_edit_test_script.number1_and_number2_and_number3_value_plus_result_equal_30
+      resultStatus: 1
+      duration: 0.0004833
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: EditTests.dll/SampleTests/[EditTests][SampleTests.first_edit_test_script][suite]
+    - id: 1080
+      uniqueId: EditTests.dll/SampleTests/first_edit_test_script/[EditTests][SampleTests.first_edit_test_script.number1_and_number2_value_plus_result_equal_30]
+      name: number1_and_number2_value_plus_result_equal_30
+      fullName: SampleTests.first_edit_test_script.number1_and_number2_value_plus_result_equal_30
+      resultStatus: 1
+      duration: 0.0003688
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: EditTests.dll/SampleTests/[EditTests][SampleTests.first_edit_test_script][suite]
+    m_ResultText: player_jump_one_time_if_can_jump_is_true (0,016s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: c0b008a3
+      m_LastClickedID: -1559711552
+      m_ExpandedIDs: 5d2e86eeb9afdc2088ee3f53f509a25db957b166ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -294,11 +1988,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 1573
+    y: 522
+    width: 415
+    height: 472
   m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -314,19 +2011,20 @@ MonoBehaviour:
     m_Folders:
     - Assets
     m_Globs: []
+    m_OriginalText: 
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 16
   m_LastFolders:
   - Assets
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: U:\layout
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: D:\GitHub\Repo_UnityIleTestGudumluGelistirmeGiris\UnityIleTestGudumluGelistirmeGiris
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f4350000
-    m_LastClickedID: 13812
-    m_ExpandedIDs: 00000000f435000000ca9a3b
+    m_SelectedIDs: 2e630000
+    m_LastClickedID: 25390
+    m_ExpandedIDs: 000000002e63000030630000326300003463000036630000386300003a6300003c6300003e63000040630000426300004463000046630000486300004a6300004c63000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -342,7 +2040,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 2}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -354,7 +2052,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4350000
+    m_ExpandedIDs: 000000002e63000030630000326300003463000036630000386300003a6300003c6300003e63000040630000426300004463000046630000486300004a6300004c63000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -398,7 +2096,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -407,10 +2105,10 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
---- !u!114 &13
+  m_DirectoriesAreaWidth: 198
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -430,25 +2128,28 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3170
-    y: 332.5
-    width: 284
-    height: 644
+    x: 3002
+    y: 73
+    width: 453
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: -1698
   m_LastVerticalScrollValue: 0
-  m_AssetGUID: 
-  m_InstanceID: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &14
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -468,17 +2169,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 332.5
-    width: 227
-    height: 373
+    x: 1573
+    y: 81
+    width: 415
+    height: 420
   m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 5ef9ffff
       m_LastClickedID: 0
-      m_ExpandedIDs: 42fbffff
+      m_ExpandedIDs: fae6ffff3eeeffffb8eeffff1cf0ffffa6f3ffff20f4ffff06f7ffff52f8ffffeef8ffff50fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -494,7 +2198,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 6}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -502,7 +2206,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -522,25 +2226,280 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2477
-    y: 332.5
-    width: 691
-    height: 373
+    x: 1989
+    y: 81
+    width: 995
+    height: 913
   m_ViewDataDictionary: {fileID: 0}
-  m_ShowContextualTools: 0
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -176, y: -26}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Path
+      index: 0
+      layout: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 1
+      layout: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 2
+      layout: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -7.386338, y: -11.051457, z: -0.36336136}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -7.386338, y: -11.051457, z: -0.36336136}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -548,15 +2507,15 @@ MonoBehaviour:
     section: Shading Mode
   m_ValidateTrueMetals: 0
   m_DoValidateTrueMetals: 0
-  m_ExposureSliderValue: 0
   m_SceneViewState:
+    m_AlwaysRefresh: 0
     showFog: 1
-    showMaterialUpdate: 0
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
+    m_FxEnabled: 1
   m_Grid:
     xGrid:
       m_Fade:
@@ -568,35 +2527,35 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
         m_Target: 1
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    zGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 37.99625
     speed: 2
-    m_Value: 10
+    m_Value: 37.99625
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -605,19 +2564,19 @@ MonoBehaviour:
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
     m_AccelerationEnabled: 1
-    m_FieldOfView: 90
+    m_FieldOfViewHorizontalOrVertical: 60
     m_NearClip: 0.03
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -642,19 +2601,27 @@ MonoBehaviour:
     width: 1532
     height: 790
   m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewsNames: []
-  m_SerializedViewsValues: []
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 640, y: 480}
+  m_TargetSize: {x: 1532, y: 769}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 0
-  m_MaximizeOnPlay: 0
+  m_EnterPlayModeBehavior: 0
+  m_fullscreenMonitorIdx: 0
+  m_playModeBehaviorIdx: 0
   m_UseMipMap: 0
+  m_isFullscreen: 0
+  m_suppressRenderingForFullscreen: 0
   m_VSyncEnabled: 0
+  m_PlayFocused: 0
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -665,8 +2632,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
-    m_VBaseRangeMin: -395
-    m_VBaseRangeMax: 395
+    m_VBaseRangeMin: -384.5
+    m_VBaseRangeMax: 384.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -683,11 +2650,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1532
-      height: 790
+      height: 769
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 395}
+    m_Translation: {x: 766, y: 384.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -695,9 +2662,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -766
-      y: -395
+      y: -384.5
       width: 1532
-      height: 790
+      height: 769
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1532, y: 790}
@@ -706,7 +2673,9 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+  m_showToolbar: 1
+  m_showToolbarOnFullscreen: 0
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -726,21 +2695,11 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 1536
+    y: 526
+    width: 431
+    height: 473
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13963, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_DontSaveToLayout: 0
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
