@@ -7,5 +7,6 @@ namespace UnityTddBeginner.Abstracts.Controllers
     {
         IAttacker Attacker { get; set; }
         IEnemyStats Stats { get; }
+        IHealth Health { get; }
     }
 }

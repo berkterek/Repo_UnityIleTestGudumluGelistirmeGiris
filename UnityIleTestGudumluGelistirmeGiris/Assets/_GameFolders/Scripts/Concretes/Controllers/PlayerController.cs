@@ -25,6 +25,7 @@ namespace UnityTddBeginner.Controllers
         public IInputReader InputReader { get; set; }
         public IPlayerStats Stats => _playerStats;
         public IHealth Health { get; private set; }
+        public IAttacker Attacker { get; private set; }
 
         void Awake()
         {
@@ -32,6 +33,7 @@ namespace UnityTddBeginner.Controllers
             _mover = new PlayerMoveWithTranslate(this);
             _flip = new PlayerFlipWithScale(this);
             Health = new Health(Stats);
+            Attacker = new Attacker(Stats);
         }
 
         void Update()
@@ -43,6 +45,16 @@ namespace UnityTddBeginner.Controllers
         void FixedUpdate()
         {
             _mover.FixedTick();
+        }
+
+        void OnCollisionEnter2D(Collision2D other)
+        {
+            if (other.collider.TryGetComponent(out IEnemyController enemyController))
+            {
+                if (other.contacts[0].normal.y != 1f) return;
+                
+                enemyController.Health.TakeDamage(Attacker);
+            }
         }
     }
 }

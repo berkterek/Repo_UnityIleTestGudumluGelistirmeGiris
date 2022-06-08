@@ -13,10 +13,12 @@ namespace UnityTddBeginner.Controllers
         
         public IAttacker Attacker { get; set; }
         public IEnemyStats Stats => _stats;
+        public IHealth Health { get; private set; }
 
         void Awake()
         {
             Attacker = new Attacker(Stats);
+            Health = new Health(_stats);
         }
 
         void OnCollisionEnter2D(Collision2D other)
