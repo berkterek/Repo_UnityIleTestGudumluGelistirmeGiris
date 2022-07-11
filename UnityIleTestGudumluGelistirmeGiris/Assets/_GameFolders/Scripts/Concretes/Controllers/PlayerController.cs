@@ -25,6 +25,7 @@ namespace UnityTddBeginner.Controllers
         public IPlayerStats Stats => _playerStats;
         public IHealth Health { get; private set; }
         public IAttacker Attacker { get; private set; }
+        public IJumpService JumpManager { get; private set; }
 
         void Awake()
         {
@@ -33,6 +34,7 @@ namespace UnityTddBeginner.Controllers
             _flip = new PlayerFlipWithScale(this);
             Health = new Health(Stats);
             Attacker = new Attacker(Stats);
+            JumpManager = new PlayerJumpManager(this, new PlayerForceJumpDal(this));
         }
 
         void Update()
