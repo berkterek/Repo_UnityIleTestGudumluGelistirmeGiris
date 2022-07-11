@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block
       objectReference: {fileID: 0}
+    - target: {fileID: 2110524444368127738, guid: 52cb0a3c464ac434f963bd29c684a8ea, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2110524444368127739, guid: 52cb0a3c464ac434f963bd29c684a8ea, type: 3}
       propertyPath: m_Size.x
       value: 20

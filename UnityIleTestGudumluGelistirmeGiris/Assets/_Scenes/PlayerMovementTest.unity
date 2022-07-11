@@ -238,6 +238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block
       objectReference: {fileID: 0}
+    - target: {fileID: 2110524444368127738, guid: 52cb0a3c464ac434f963bd29c684a8ea, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 2110524444368127739, guid: 52cb0a3c464ac434f963bd29c684a8ea, type: 3}
       propertyPath: m_Size.x
       value: 50
@@ -245,6 +249,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 52cb0a3c464ac434f963bd29c684a8ea, type: 3}
+--- !u!1 &1433443166 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2110524444368127737, guid: 52cb0a3c464ac434f963bd29c684a8ea, type: 3}
+  m_PrefabInstance: {fileID: 1433443165}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1433443167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433443166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7006a64e43378c449847b62253871407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _collider2D: {fileID: 1433443168}
+--- !u!61 &1433443168 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 2110524444368127738, guid: 52cb0a3c464ac434f963bd29c684a8ea, type: 3}
+  m_PrefabInstance: {fileID: 1433443165}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5398106757432802705
 PrefabInstance:
   m_ObjectHideFlags: 0

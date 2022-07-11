@@ -4,5 +4,6 @@
     {
         void Tick();
         void FixedTick();
+        void ResetCounter();
     }
 }

@@ -41,15 +41,18 @@ namespace UnityTddBeginner.Controllers
         {
             _mover.Tick();
             _flip.Tick();
+            JumpManager.Tick();
         }
 
         void FixedUpdate()
         {
             _mover.FixedTick();
+            JumpManager.FixedTick();
         }
 
         void OnCollisionEnter2D(Collision2D other)
         {
+            JumpManager.ResetCounter();
             if (other.collider.TryGetComponent(out IEnemyController enemyController))
             {
                 if (other.contacts[0].normal.y != 1f) return;

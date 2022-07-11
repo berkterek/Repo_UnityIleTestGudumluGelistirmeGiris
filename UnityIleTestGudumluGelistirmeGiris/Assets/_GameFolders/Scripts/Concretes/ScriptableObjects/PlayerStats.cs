@@ -6,6 +6,7 @@ namespace UnityTddBeginner.ScriptableObjects
     [CreateAssetMenu(fileName = "New Player Stats",menuName = "Terek Gaming/Stats/Player Stats")]
     public class PlayerStats : Stats,IPlayerStats
     {
-        public float JumpForce { get; }
+        [SerializeField] float _jumpForce = 15000f;
+        public float JumpForce => _jumpForce;
     }
 }
