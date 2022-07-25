@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Scene
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -34,7 +34,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -43,14 +43,14 @@ MonoBehaviour:
     y: 444
     width: 431
     height: 495
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 22}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 22}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 89
+  controlID: 79
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -470,8 +470,8 @@ MonoBehaviour:
       uniqueId: '[UnityIleTestGudumluGelistirmeGiris][suite]'
       name: UnityIleTestGudumluGelistirmeGiris
       fullName: UnityIleTestGudumluGelistirmeGiris
-      resultStatus: 0
-      duration: 3.294555
+      resultStatus: 1
+      duration: 1.4156486
       messages: 
       output: 
       stacktrace: 
@@ -486,8 +486,8 @@ MonoBehaviour:
       uniqueId: '[PlayModeTests.dll][suite]'
       name: PlayModeTests.dll
       fullName: D:/GitHub/Repo_UnityIleTestGudumluGelistirmeGiris/UnityIleTestGudumluGelistirmeGiris/Library/ScriptAssemblies/PlayModeTests.dll
-      resultStatus: 0
-      duration: 3.2819254
+      resultStatus: 1
+      duration: 1.399435
       messages: 
       output: 
       stacktrace: 
@@ -502,8 +502,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/[PlayModeTests][Combats][suite]
       name: Combats
       fullName: Combats
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.3965876
       messages: 
       output: 
       stacktrace: 
@@ -518,8 +518,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/[PlayModeTests][Combats.player_attack][suite]
       name: player_attack
       fullName: Combats.player_attack
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.3930221
       messages: 
       output: 
       stacktrace: 
@@ -534,8 +534,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_attack/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down][suite]
       name: player_attack_enemy_left_right_down
       fullName: Combats.player_attack.player_attack_enemy_left_right_down
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 3.9629455
       messages: 
       output: 
       stacktrace: 
@@ -550,8 +550,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_attack/player_attack_enemy_left_right_down/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down(-1.0f,0.0f)]
       name: player_attack_enemy_left_right_down(-1.0f,0.0f)
       fullName: Combats.player_attack.player_attack_enemy_left_right_down(-1.0f,0.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.4266136
       messages: 
       output: 
       stacktrace: 
@@ -567,8 +567,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_attack/player_attack_enemy_left_right_down/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down(1.0f,0.0f)]
       name: player_attack_enemy_left_right_down(1.0f,0.0f)
       fullName: Combats.player_attack.player_attack_enemy_left_right_down(1.0f,0.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.2575994
       messages: 
       output: 
       stacktrace: 
@@ -584,8 +584,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_attack/player_attack_enemy_left_right_down/[PlayModeTests][Combats.player_attack.player_attack_enemy_left_right_down(0.0f,-1.0f)]
       name: player_attack_enemy_left_right_down(0.0f,-1.0f)
       fullName: Combats.player_attack.player_attack_enemy_left_right_down(0.0f,-1.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.2690258
       messages: 
       output: 
       stacktrace: 
@@ -601,8 +601,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_attack/[PlayModeTests][Combats.player_attack.player_attack_enemy_one_time]
       name: player_attack_enemy_one_time
       fullName: Combats.player_attack.player_attack_enemy_one_time
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.3736688
       messages: 
       output: 
       stacktrace: 
@@ -618,8 +618,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/[PlayModeTests][Combats.player_health][suite]
       name: player_health
       fullName: Combats.player_health
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 10.239092
       messages: 
       output: 
       stacktrace: 
@@ -634,8 +634,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_none_damage_from_down_side]
       name: player_take_none_damage_from_down_side
       fullName: Combats.player_health.player_take_none_damage_from_down_side
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.3666883
       messages: 
       output: 
       stacktrace: 
@@ -651,8 +651,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side][suite]
       name: player_take_one_damage_from_up_left_right_side
       fullName: Combats.player_health.player_take_one_damage_from_up_left_right_side
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 3.8091037
       messages: 
       output: 
       stacktrace: 
@@ -667,8 +667,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_from_up_left_right_side/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side(0.0f,1.0f)]
       name: player_take_one_damage_from_up_left_right_side(0.0f,1.0f)
       fullName: Combats.player_health.player_take_one_damage_from_up_left_right_side(0.0f,1.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.2692524
       messages: 
       output: 
       stacktrace: 
@@ -684,8 +684,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_from_up_left_right_side/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side(-1.0f,0.0f)]
       name: player_take_one_damage_from_up_left_right_side(-1.0f,0.0f)
       fullName: Combats.player_health.player_take_one_damage_from_up_left_right_side(-1.0f,0.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.2680544
       messages: 
       output: 
       stacktrace: 
@@ -701,8 +701,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_from_up_left_right_side/[PlayModeTests][Combats.player_health.player_take_one_damage_from_up_left_right_side(1.0f,0.0f)]
       name: player_take_one_damage_from_up_left_right_side(1.0f,0.0f)
       fullName: Combats.player_health.player_take_one_damage_from_up_left_right_side(1.0f,0.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.2661371
       messages: 
       output: 
       stacktrace: 
@@ -718,8 +718,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_health/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time][suite]
       name: player_take_one_damage_in_one_time
       fullName: Combats.player_health.player_take_one_damage_in_one_time
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 5.05726
       messages: 
       output: 
       stacktrace: 
@@ -734,8 +734,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_in_one_time/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time(1)]
       name: player_take_one_damage_in_one_time(1)
       fullName: Combats.player_health.player_take_one_damage_in_one_time(1)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.261627
       messages: 
       output: 
       stacktrace: 
@@ -751,8 +751,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_in_one_time/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time(2)]
       name: player_take_one_damage_in_one_time(2)
       fullName: Combats.player_health.player_take_one_damage_in_one_time(2)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.2635688
       messages: 
       output: 
       stacktrace: 
@@ -768,8 +768,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_in_one_time/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time(5)]
       name: player_take_one_damage_in_one_time(5)
       fullName: Combats.player_health.player_take_one_damage_in_one_time(5)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.2621012
       messages: 
       output: 
       stacktrace: 
@@ -785,8 +785,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Combats/player_health/player_take_one_damage_in_one_time/[PlayModeTests][Combats.player_health.player_take_one_damage_in_one_time(10)]
       name: player_take_one_damage_in_one_time(10)
       fullName: Combats.player_health.player_take_one_damage_in_one_time(10)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.2629938
       messages: 
       output: 
       stacktrace: 
@@ -802,8 +802,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/[PlayModeTests][Movements][suite]
       name: Movements
       fullName: Movements
-      resultStatus: 0
-      duration: 3.2785275
+      resultStatus: 1
+      duration: 37.58279
       messages: 
       output: 
       stacktrace: 
@@ -818,8 +818,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_flip][suite]
       name: player_flip
       fullName: Movements.player_flip
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 19.111763
       messages: 
       output: 
       stacktrace: 
@@ -834,8 +834,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value][suite]
       name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
       fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 12.550071
       messages: 
       output: 
       stacktrace: 
@@ -850,8 +850,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)]
       name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
       fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 6.2582655
       messages: 
       output: 
       stacktrace: 
@@ -867,8 +867,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)]
       name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
       fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 6.2889977
       messages: 
       output: 
       stacktrace: 
@@ -884,8 +884,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_flip/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value][suite]
       name: player_get_input_value_body_scale_x_result_equal_input_value
       fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 6.5588365
       messages: 
       output: 
       stacktrace: 
@@ -900,8 +900,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_body_scale_x_result_equal_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)]
       name: player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
       fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 3.2713265
       messages: 
       output: 
       stacktrace: 
@@ -917,8 +917,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_flip/player_get_input_value_body_scale_x_result_equal_input_value/[PlayModeTests][Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)]
       name: player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
       fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 3.281329
       messages: 
       output: 
       stacktrace: 
@@ -934,8 +934,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_jump][suite]
       name: player_jump
       fullName: Movements.player_jump
-      resultStatus: 0
-      duration: 3.2753148
+      resultStatus: 1
+      duration: 5.351759
       messages: 
       output: 
       stacktrace: 
@@ -950,8 +950,42 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_jump/[PlayModeTests][Movements.player_jump.player_jump_one_time]
       name: player_jump_one_time
       fullName: Movements.player_jump.player_jump_one_time
-      resultStatus: 0
-      duration: 3.2614677
+      resultStatus: 1
+      duration: 0.7831595
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_jump][suite]
+    - id: 1010
+      uniqueId: PlayModeTests.dll/Movements/player_jump/[PlayModeTests][Movements.player_jump.player_jump_one_time_but_input_jump_many_time_pressed]
+      name: player_jump_one_time_but_input_jump_many_time_pressed
+      fullName: Movements.player_jump.player_jump_one_time_but_input_jump_many_time_pressed
+      resultStatus: 1
+      duration: 1.776421
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_jump][suite]
+    - id: 1011
+      uniqueId: PlayModeTests.dll/Movements/player_jump/[PlayModeTests][Movements.player_jump.player_jump_one_time_wait_after_jump_again]
+      name: player_jump_one_time_wait_after_jump_again
+      fullName: Movements.player_jump.player_jump_one_time_wait_after_jump_again
+      resultStatus: 1
+      duration: 2.783832
       messages: 
       output: 
       stacktrace: 
@@ -967,8 +1001,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/[PlayModeTests][Movements.player_movement][suite]
       name: player_movement
       fullName: Movements.player_movement
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 13.112641
       messages: 
       output: 
       stacktrace: 
@@ -983,8 +1017,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_movement/[PlayModeTests][Movements.player_movement.player_move_left_end_position_greater_than_start_position]
       name: player_move_left_end_position_greater_than_start_position
       fullName: Movements.player_movement.player_move_left_end_position_greater_than_start_position
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 3.274783
       messages: 
       output: 
       stacktrace: 
@@ -1000,8 +1034,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_movement/[PlayModeTests][Movements.player_movement.player_move_left_or_right_not_equal_start_position][suite]
       name: player_move_left_or_right_not_equal_start_position
       fullName: Movements.player_movement.player_move_left_or_right_not_equal_start_position
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 6.572647
       messages: 
       output: 
       stacktrace: 
@@ -1016,8 +1050,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_movement/player_move_left_or_right_not_equal_start_position/[PlayModeTests][Movements.player_movement.player_move_left_or_right_not_equal_start_position(1.0f)]
       name: player_move_left_or_right_not_equal_start_position(1.0f)
       fullName: Movements.player_movement.player_move_left_or_right_not_equal_start_position(1.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 3.278895
       messages: 
       output: 
       stacktrace: 
@@ -1033,8 +1067,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_movement/player_move_left_or_right_not_equal_start_position/[PlayModeTests][Movements.player_movement.player_move_left_or_right_not_equal_start_position(-1.0f)]
       name: player_move_left_or_right_not_equal_start_position(-1.0f)
       fullName: Movements.player_movement.player_move_left_or_right_not_equal_start_position(-1.0f)
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 3.2878146
       messages: 
       output: 
       stacktrace: 
@@ -1050,8 +1084,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/Movements/player_movement/[PlayModeTests][Movements.player_movement.player_move_right_end_position_greater_than_start_position]
       name: player_move_right_end_position_greater_than_start_position
       fullName: Movements.player_movement.player_move_right_end_position_greater_than_start_position
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 3.2589257
       messages: 
       output: 
       stacktrace: 
@@ -1067,8 +1101,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/[PlayModeTests][SampleTests][suite]
       name: SampleTests
       fullName: SampleTests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 2.0339575
       messages: 
       output: 
       stacktrace: 
@@ -1083,8 +1117,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/SampleTests/[PlayModeTests][SampleTests.first_play_mode_test][suite]
       name: first_play_mode_test
       fullName: SampleTests.first_play_mode_test
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 2.028219
       messages: 
       output: 
       stacktrace: 
@@ -1099,8 +1133,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/SampleTests/first_play_mode_test/[PlayModeTests][SampleTests.first_play_mode_test.create_new_game_object_and_find_on_scene]
       name: create_new_game_object_and_find_on_scene
       fullName: SampleTests.first_play_mode_test.create_new_game_object_and_find_on_scene
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 2.0069427
       messages: 
       output: 
       stacktrace: 
@@ -1116,8 +1150,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/SampleTests/first_play_mode_test/[PlayModeTests][SampleTests.first_play_mode_test.number1_and_number2_and_number3_value_plus_result_equal_30]
       name: number1_and_number2_and_number3_value_plus_result_equal_30
       fullName: SampleTests.first_play_mode_test.number1_and_number2_and_number3_value_plus_result_equal_30
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0092653
       messages: 
       output: 
       stacktrace: 
@@ -1133,8 +1167,8 @@ MonoBehaviour:
       uniqueId: PlayModeTests.dll/SampleTests/first_play_mode_test/[PlayModeTests][SampleTests.first_play_mode_test.number1_and_number2_value_plus_result_equal_30]
       name: number1_and_number2_value_plus_result_equal_30
       fullName: SampleTests.first_play_mode_test.number1_and_number2_value_plus_result_equal_30
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0089955
       messages: 
       output: 
       stacktrace: 
@@ -1146,13 +1180,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1031
       parentUniqueId: PlayModeTests.dll/SampleTests/[PlayModeTests][SampleTests.first_play_mode_test][suite]
-    m_ResultText: 
+    m_ResultText: player_attack_enemy_one_time (1,374s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e8765909
-      m_LastClickedID: 156858088
-      m_ExpandedIDs: ae332b91fa4825c4cdd22313b9afdc20f509a25dffffff7f
+      m_SelectedIDs: e18f840c
+      m_LastClickedID: 210014177
+      m_ExpandedIDs: a400c28bae332b91569fb79efa4825c40aa8eeef5bf2b5ffcdd22313b9afdc20a850a829ace6f449f509a25dbfe90b7cffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1187,7 +1221,7 @@ MonoBehaviour:
       name: UnityIleTestGudumluGelistirmeGiris
       fullName: UnityIleTestGudumluGelistirmeGiris
       resultStatus: 1
-      duration: 0.1840777
+      duration: 0.1852449
       messages: 
       output: 
       stacktrace: 
@@ -1203,7 +1237,7 @@ MonoBehaviour:
       name: EditTests.dll
       fullName: D:/GitHub/Repo_UnityIleTestGudumluGelistirmeGiris/UnityIleTestGudumluGelistirmeGiris/Library/ScriptAssemblies/EditTests.dll
       resultStatus: 1
-      duration: 0.1511031
+      duration: 0.1605578
       messages: 
       output: 
       stacktrace: 
@@ -1219,7 +1253,7 @@ MonoBehaviour:
       name: Combats
       fullName: Combats
       resultStatus: 1
-      duration: 0.0577984
+      duration: 0.0564446
       messages: 
       output: 
       stacktrace: 
@@ -1235,7 +1269,7 @@ MonoBehaviour:
       name: health
       fullName: Combats.health
       resultStatus: 1
-      duration: 0.0543262
+      duration: 0.0531987
       messages: 
       output: 
       stacktrace: 
@@ -1251,7 +1285,7 @@ MonoBehaviour:
       name: take_damage_current_health_not_less_then_zero
       fullName: Combats.health.take_damage_current_health_not_less_then_zero
       resultStatus: 1
-      duration: 0.0120802
+      duration: 0.0169668
       messages: 
       output: 
       stacktrace: 
@@ -1267,7 +1301,7 @@ MonoBehaviour:
       name: take_damage_current_health_not_less_then_zero(1)
       fullName: Combats.health.take_damage_current_health_not_less_then_zero(1)
       resultStatus: 1
-      duration: 0.0062036
+      duration: 0.0107046
       messages: 
       output: 
       stacktrace: 
@@ -1284,7 +1318,7 @@ MonoBehaviour:
       name: take_damage_current_health_not_less_then_zero(2)
       fullName: Combats.health.take_damage_current_health_not_less_then_zero(2)
       resultStatus: 1
-      duration: 0.0007452
+      duration: 0.0009012
       messages: 
       output: 
       stacktrace: 
@@ -1301,7 +1335,7 @@ MonoBehaviour:
       name: take_damage_current_health_not_less_then_zero(5)
       fullName: Combats.health.take_damage_current_health_not_less_then_zero(5)
       resultStatus: 1
-      duration: 0.0004781
+      duration: 0.0004787
       messages: 
       output: 
       stacktrace: 
@@ -1318,7 +1352,7 @@ MonoBehaviour:
       name: take_damage_current_health_not_less_then_zero(10)
       fullName: Combats.health.take_damage_current_health_not_less_then_zero(10)
       resultStatus: 1
-      duration: 0.000517
+      duration: 0.0007046
       messages: 
       output: 
       stacktrace: 
@@ -1335,7 +1369,7 @@ MonoBehaviour:
       name: take_damage_not_equal_max_health
       fullName: Combats.health.take_damage_not_equal_max_health
       resultStatus: 1
-      duration: 0.0151004
+      duration: 0.0109596
       messages: 
       output: 
       stacktrace: 
@@ -1351,7 +1385,7 @@ MonoBehaviour:
       name: take_damage_not_equal_max_health(1)
       fullName: Combats.health.take_damage_not_equal_max_health(1)
       resultStatus: 1
-      duration: 0.0063569
+      duration: 0.0025986
       messages: 
       output: 
       stacktrace: 
@@ -1368,7 +1402,7 @@ MonoBehaviour:
       name: take_damage_not_equal_max_health(2)
       fullName: Combats.health.take_damage_not_equal_max_health(2)
       resultStatus: 1
-      duration: 0.0006507
+      duration: 0.0004261
       messages: 
       output: 
       stacktrace: 
@@ -1385,7 +1419,7 @@ MonoBehaviour:
       name: take_damage_not_equal_max_health(5)
       fullName: Combats.health.take_damage_not_equal_max_health(5)
       resultStatus: 1
-      duration: 0.0004354
+      duration: 0.0003987
       messages: 
       output: 
       stacktrace: 
@@ -1402,7 +1436,7 @@ MonoBehaviour:
       name: take_damage_not_equal_max_health(10)
       fullName: Combats.health.take_damage_not_equal_max_health(10)
       resultStatus: 1
-      duration: 0.0004253
+      duration: 0.0003884
       messages: 
       output: 
       stacktrace: 
@@ -1419,7 +1453,7 @@ MonoBehaviour:
       name: take_damage_one_on_took_damage_event_triggered_one_time
       fullName: Combats.health.take_damage_one_on_took_damage_event_triggered_one_time
       resultStatus: 1
-      duration: 0.0014653
+      duration: 0.0008412
       messages: 
       output: 
       stacktrace: 
@@ -1436,7 +1470,7 @@ MonoBehaviour:
       name: take_fatal_damage_many_time_on_took_damage_triggered_one_time
       fullName: Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time
       resultStatus: 1
-      duration: 0.0074531
+      duration: 0.0076692
       messages: 
       output: 
       stacktrace: 
@@ -1452,7 +1486,7 @@ MonoBehaviour:
       name: take_fatal_damage_many_time_on_took_damage_triggered_one_time(2)
       fullName: Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time(2)
       resultStatus: 1
-      duration: 0.0012557
+      duration: 0.0009234
       messages: 
       output: 
       stacktrace: 
@@ -1469,7 +1503,7 @@ MonoBehaviour:
       name: take_fatal_damage_many_time_on_took_damage_triggered_one_time(5)
       fullName: Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time(5)
       resultStatus: 1
-      duration: 0.0004322
+      duration: 0.0004044
       messages: 
       output: 
       stacktrace: 
@@ -1486,7 +1520,7 @@ MonoBehaviour:
       name: take_fatal_damage_many_time_on_took_damage_triggered_one_time(10)
       fullName: Combats.health.take_fatal_damage_many_time_on_took_damage_triggered_one_time(10)
       resultStatus: 1
-      duration: 0.0004036
+      duration: 0.0003873
       messages: 
       output: 
       stacktrace: 
@@ -1503,7 +1537,7 @@ MonoBehaviour:
       name: take_fatal_damage_on_dead_triggered
       fullName: Combats.health.take_fatal_damage_on_dead_triggered
       resultStatus: 1
-      duration: 0.0009082
+      duration: 0.000819
       messages: 
       output: 
       stacktrace: 
@@ -1520,7 +1554,7 @@ MonoBehaviour:
       name: take_many_damage_on_took_damage_event_triggered_many_time
       fullName: Combats.health.take_many_damage_on_took_damage_event_triggered_many_time
       resultStatus: 1
-      duration: 0.0111608
+      duration: 0.0090462
       messages: 
       output: 
       stacktrace: 
@@ -1536,7 +1570,7 @@ MonoBehaviour:
       name: take_many_damage_on_took_damage_event_triggered_many_time(1)
       fullName: Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(1)
       resultStatus: 1
-      duration: 0.0010704
+      duration: 0.0010436
       messages: 
       output: 
       stacktrace: 
@@ -1553,7 +1587,7 @@ MonoBehaviour:
       name: take_many_damage_on_took_damage_event_triggered_many_time(2)
       fullName: Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(2)
       resultStatus: 1
-      duration: 0.0004694
+      duration: 0.0004287
       messages: 
       output: 
       stacktrace: 
@@ -1570,7 +1604,7 @@ MonoBehaviour:
       name: take_many_damage_on_took_damage_event_triggered_many_time(5)
       fullName: Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(5)
       resultStatus: 1
-      duration: 0.0004986
+      duration: 0.0006526
       messages: 
       output: 
       stacktrace: 
@@ -1587,7 +1621,7 @@ MonoBehaviour:
       name: take_many_damage_on_took_damage_event_triggered_many_time(10)
       fullName: Combats.health.take_many_damage_on_took_damage_event_triggered_many_time(10)
       resultStatus: 1
-      duration: 0.0006128
+      duration: 0.0006671
       messages: 
       output: 
       stacktrace: 
@@ -1604,7 +1638,7 @@ MonoBehaviour:
       name: take_normal_damage_on_dead_not_triggered
       fullName: Combats.health.take_normal_damage_on_dead_not_triggered
       resultStatus: 1
-      duration: 0.0008268
+      duration: 0.0008718
       messages: 
       output: 
       stacktrace: 
@@ -1621,7 +1655,7 @@ MonoBehaviour:
       name: Movements
       fullName: Movements
       resultStatus: 1
-      duration: 0.1421832
+      duration: 0.0949489
       messages: 
       output: 
       stacktrace: 
@@ -1637,7 +1671,7 @@ MonoBehaviour:
       name: player_flip
       fullName: Movements.player_flip
       resultStatus: 1
-      duration: 0.0242167
+      duration: 0.0306772
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1658,7 +1692,7 @@ MonoBehaviour:
       name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
       fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value
       resultStatus: 1
-      duration: 0.0084737
+      duration: 0.0176459
       messages: 
       output: 
       stacktrace: 
@@ -1674,7 +1708,7 @@ MonoBehaviour:
       name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
       fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(1.0f)
       resultStatus: 1
-      duration: 0.0038188
+      duration: 0.0134986
       messages: 
       output: 
       stacktrace: 
@@ -1691,7 +1725,7 @@ MonoBehaviour:
       name: player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
       fullName: Movements.player_flip.player_get_input_value_after_input_get_0_body_scale_x_result_equal_first_input_value(-1.0f)
       resultStatus: 1
-      duration: 0.0018084
+      duration: 0.0014665
       messages: 
       output: 
       stacktrace: 
@@ -1708,7 +1742,7 @@ MonoBehaviour:
       name: player_get_input_value_body_scale_x_result_equal_input_value
       fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value
       resultStatus: 1
-      duration: 0.01117
+      duration: 0.0093242
       messages: 
       output: 
       stacktrace: 
@@ -1724,7 +1758,7 @@ MonoBehaviour:
       name: player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
       fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(1.0f)
       resultStatus: 1
-      duration: 0.0021132
+      duration: 0.0019542
       messages: 
       output: 
       stacktrace: 
@@ -1741,7 +1775,7 @@ MonoBehaviour:
       name: player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
       fullName: Movements.player_flip.player_get_input_value_body_scale_x_result_equal_input_value(-1.0f)
       resultStatus: 1
-      duration: 0.001195
+      duration: 0.0012312
       messages: 
       output: 
       stacktrace: 
@@ -1758,7 +1792,7 @@ MonoBehaviour:
       name: player_jump
       fullName: Movements.player_jump
       resultStatus: 1
-      duration: 0.140795
+      duration: 0.0305302
       messages: 
       output: 
       stacktrace: 
@@ -1774,7 +1808,7 @@ MonoBehaviour:
       name: player_can_not_jump_one_time_if_can_jump_is_false
       fullName: Movements.player_jump.player_can_not_jump_one_time_if_can_jump_is_false
       resultStatus: 1
-      duration: 0.128349
+      duration: 0.0145979
       messages: 
       output: 
       stacktrace: 
@@ -1791,7 +1825,7 @@ MonoBehaviour:
       name: player_jump_one_time_if_can_jump_is_true
       fullName: Movements.player_jump.player_jump_one_time_if_can_jump_is_true
       resultStatus: 1
-      duration: 0.1313255
+      duration: 0.0043502
       messages: 
       output: 
       stacktrace: 
@@ -1808,7 +1842,7 @@ MonoBehaviour:
       name: player_movement
       fullName: Movements.player_movement
       resultStatus: 1
-      duration: 0.0292913
+      duration: 0.0286328
       messages: 
       output: 
       stacktrace: 
@@ -1824,7 +1858,7 @@ MonoBehaviour:
       name: move_10_meters_left_end_position_greater_than_start_position
       fullName: Movements.player_movement.move_10_meters_left_end_position_greater_than_start_position
       resultStatus: 1
-      duration: 0.0040255
+      duration: 0.0033047
       messages: 
       output: 
       stacktrace: 
@@ -1841,7 +1875,7 @@ MonoBehaviour:
       name: move_10_meters_right_end_position_greater_than_start_position
       fullName: Movements.player_movement.move_10_meters_right_end_position_greater_than_start_position
       resultStatus: 1
-      duration: 0.0029698
+      duration: 0.0025441
       messages: 
       output: 
       stacktrace: 
@@ -1858,7 +1892,7 @@ MonoBehaviour:
       name: move_10_meters_right_or_left_not_equal_start_position
       fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position
       resultStatus: 1
-      duration: 0.0136611
+      duration: 0.0143611
       messages: 
       output: 
       stacktrace: 
@@ -1874,7 +1908,7 @@ MonoBehaviour:
       name: move_10_meters_right_or_left_not_equal_start_position(1.0f)
       fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(1.0f)
       resultStatus: 1
-      duration: 0.0043834
+      duration: 0.0036602
       messages: 
       output: 
       stacktrace: 
@@ -1891,7 +1925,7 @@ MonoBehaviour:
       name: move_10_meters_right_or_left_not_equal_start_position(-1.0f)
       fullName: Movements.player_movement.move_10_meters_right_or_left_not_equal_start_position(-1.0f)
       resultStatus: 1
-      duration: 0.0021722
+      duration: 0.0018885
       messages: 
       output: 
       stacktrace: 
@@ -1908,7 +1942,7 @@ MonoBehaviour:
       name: SampleTests
       fullName: SampleTests
       resultStatus: 1
-      duration: 0.0193751
+      duration: 0.0085612
       messages: 
       output: 
       stacktrace: 
@@ -1924,7 +1958,7 @@ MonoBehaviour:
       name: first_edit_test_script
       fullName: SampleTests.first_edit_test_script
       resultStatus: 1
-      duration: 0.0046745
+      duration: 0.0014567
       messages: 
       output: 
       stacktrace: 
@@ -1940,7 +1974,7 @@ MonoBehaviour:
       name: number1_and_number2_and_number3_value_plus_result_equal_30
       fullName: SampleTests.first_edit_test_script.number1_and_number2_and_number3_value_plus_result_equal_30
       resultStatus: 1
-      duration: 0.0004833
+      duration: 0.0002189
       messages: 
       output: 
       stacktrace: 
@@ -1957,7 +1991,7 @@ MonoBehaviour:
       name: number1_and_number2_value_plus_result_equal_30
       fullName: SampleTests.first_edit_test_script.number1_and_number2_value_plus_result_equal_30
       resultStatus: 1
-      duration: 0.0003688
+      duration: 0.000144
       messages: 
       output: 
       stacktrace: 
@@ -1969,13 +2003,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1079
       parentUniqueId: EditTests.dll/SampleTests/[EditTests][SampleTests.first_edit_test_script][suite]
-    m_ResultText: player_can_not_jump_one_time_if_can_jump_is_false (0,128s)
+    m_ResultText: player_jump (0,031s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 686076d2
-      m_LastClickedID: -763994008
-      m_ExpandedIDs: 5d2e86eeb9afdc2088ee3f53f509a25db957b166ffffff7f
+      m_SelectedIDs: 88ee3f53
+      m_LastClickedID: 1396698760
+      m_ExpandedIDs: 5d2e86ee343f8706b9afdc203eeb3121a7a1fd4d88ee3f53f509a25db957b1662ec7e376734b5c7dffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2042,22 +2076,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_GameFolders/Scripts/Tests/PlayModeTests
+    - Assets/_Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/_GameFolders/Scripts/Tests/PlayModeTests
+  - Assets/_Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\GitHub\Repo_UnityIleTestGudumluGelistirmeGiris\UnityIleTestGudumluGelistirmeGiris
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 110}
-    m_SelectedIDs: 10820000
-    m_LastClickedID: 33296
-    m_ExpandedIDs: 000000003a6300003c6300003e63000040630000426300004463000046630000486300004a6300004c6300004e63000050630000526300005463000056630000
+    scrollPos: {x: 0, y: 30}
+    m_SelectedIDs: d66f0000
+    m_LastClickedID: 28630
+    m_ExpandedIDs: 000000003a6300003e63000040630000426300004463000046630000486300004a6300004c6300004e6300005063000054630000566300007e810000108d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2112,7 +2146,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2215,21 +2249,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 94f6ffffd4f6ffff44f7ffff0af8ffff4cf8ffffd8f9ffff02fbffff
+      m_ExpandedIDs: 9c8effffde8effff7090ffffd290ffff1491ffff4097ffff9298ffff4c99ffffda99ffff1c9affffae9bfffffe9bffff409cffff52a2ffffa6a2ffffe8a2ffff68a4ffff40a6ffffe0a8ffff22a9ffffa6aaffff70b4ffffb2b4ffff38b6ffff8eb6ffffd0b6ffff64b8ffffceb8ffff10b9ffff68bfffffb8c0ffff30c1ffff72c1fffff8c2ffff52c3ffff94c3ffff28c5ffff7ec5ffffc0c5ffff54c7ffffa8c7ffffeac7fffff0c9ffff46caffff88caffff1accffff70ccffffb2ccffff36ceffff8cceffffceceffffded4ffff84d5ffffc6d6ffff20d7ffff92d7ffffd4d7ffff58d9ffff84daffffc6daffff4adcffff96e0ffffd8e0ffff5ce2ffff80e3ffffc2e3ffff46e5ffff6ee6ffffb0e6ffff34e8ffff82e9ffffc4e9ffff48ebffff6cecffffaeecffff32eeffff56efffff98efffff1cf1ffff54f2ffff96f2ffff1af4fffff0f5ffff32f6ffffb6f7ffff16f8ffff58f8ffffe4f9ffff02fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: TestCamera
+        m_OriginalName: TestCamera
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -22986
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -2530,9 +2564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.2413179, y: -1.7102953, z: -0.17874375}
+    m_Target: {x: 2.117034, y: -3.0313704, z: -0.3284927}
     speed: 2
-    m_Value: {x: 1.2413179, y: -1.7102953, z: -0.17874375}
+    m_Value: {x: 2.117034, y: -3.0313704, z: -0.3284927}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2582,9 +2616,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.307718
+    m_Target: 13.349916
     speed: 2
-    m_Value: 6.307718
+    m_Value: 13.349916
   m_Ortho:
     m_Target: 1
     speed: 2
