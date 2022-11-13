@@ -12,5 +12,6 @@ namespace UnityTddBeginner.Abstracts.Controllers
         IHealth Health { get; }
         IAttacker Attacker { get; }
         IJumpService JumpManager { get; }
+        IMovementService MovementManager { get; }
     }
 }

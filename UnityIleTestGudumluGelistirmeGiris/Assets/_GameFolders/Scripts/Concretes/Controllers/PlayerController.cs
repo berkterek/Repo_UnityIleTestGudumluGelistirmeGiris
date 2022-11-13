@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityTddBeginner.Abstracts.Combats;
 using UnityTddBeginner.Abstracts.Controllers;
 using UnityTddBeginner.Abstracts.Inputs;
@@ -16,28 +17,26 @@ namespace UnityTddBeginner.Controllers
     {
         [SerializeField] PlayerStats _playerStats;
         [SerializeField] Rigidbody2D _rigidbody2D;
+        [SerializeField] InputActionReference _movementAction;
         
-        IMover _mover;
         IFlip _flip;
         
-        //Jump or Double Jump or many many jump
-        //Collect
-        //Animation
         public IInputReader InputReader { get; set; }
         public IPlayerStats Stats => _playerStats;
         public IHealth Health { get; private set; }
         public IAttacker Attacker { get; private set; }
         public IJumpService JumpManager { get; private set; }
+        public IMovementService MovementManager { get; private set; }
 
         void Awake()
         {
             GetReference();
-            InputReader = new InputReader();
-            _mover = new PlayerMoveWithTranslate(this);
+            InputReader = new InputReader(_movementAction);
             _flip = new PlayerFlipWithScale(this);
             Health = new Health(Stats);
             Attacker = new Attacker(Stats);
             JumpManager = new PlayerJumpManager(this, new ForceJumpDal(_rigidbody2D));
+            MovementManager = new PlayerMovementManager(this, new MoveWithTranslateDal(transform));
         }
 
         void OnValidate()
@@ -47,14 +46,14 @@ namespace UnityTddBeginner.Controllers
 
         void Update()
         {
-            _mover.Tick();
+            MovementManager.Tick();
             _flip.Tick();
             JumpManager.Tick();
         }
 
         void FixedUpdate()
         {
-            _mover.FixedTick();
+            MovementManager.FixedTick();
             JumpManager.FixedTick();
         }
 

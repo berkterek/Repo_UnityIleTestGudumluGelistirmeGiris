@@ -33,14 +33,23 @@ namespace Movements
         public IEnumerator player_move_left_or_right_not_equal_start_position(float inputValue)
         {
             //Arrange
-            Vector3 startPosition = _playerController.transform.position;
+            float startPositionX = _playerController.transform.position.x;
             
             //Act
+
+            yield return new WaitForSeconds(1f);
+
+            Vector3 startPosition = new Vector3(startPositionX, _playerController.transform.position.y,
+                _playerController.transform.position.z);
+            _playerController.transform.position = startPosition;
+            
             _playerController.InputReader.Horizontal.Returns(inputValue);
             yield return new WaitForSeconds(3f);
             //Assert
+
+            Debug.Log(_playerController.transform.position.x);
             
-            Assert.AreNotEqual(startPosition, _playerController.transform.position);
+            Assert.AreNotEqual(startPositionX, _playerController.transform.position.x);
         }
 
         [UnityTest]
@@ -57,7 +66,13 @@ namespace Movements
         [UnityTest]
         public IEnumerator player_move_left_end_position_greater_than_start_position()
         {
-            Vector3 startPosition = _playerController.transform.position;
+            float startPositionX = _playerController.transform.position.x;
+            
+            yield return new WaitForSeconds(1f);
+
+            Vector3 startPosition = new Vector3(startPositionX, _playerController.transform.position.y,
+                _playerController.transform.position.z);
+            _playerController.transform.position = startPosition;
 
             _playerController.InputReader.Horizontal.Returns(-1f);
             yield return new WaitForSeconds(3f);

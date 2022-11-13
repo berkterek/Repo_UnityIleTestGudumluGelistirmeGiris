@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityTddBeginner.Abstracts.Combats;
 using UnityTddBeginner.Abstracts.Controllers;
+using UnityTddBeginner.Abstracts.Movements;
 using UnityTddBeginner.Abstracts.ScriptableObjects;
 using UnityTddBeginner.Combats;
 using UnityTddBeginner.ScriptableObjects;
@@ -10,10 +11,11 @@ namespace UnityTddBeginner.Controllers
     public class EnemyController : MonoBehaviour, IEnemyController
     {
         [SerializeField] EnemyStats _stats;
-        
+
         public IAttacker Attacker { get; set; }
         public IEnemyStats Stats => _stats;
         public IHealth Health { get; private set; }
+        public IMoverDal Mover { get; private set; }
 
         void Awake()
         {
@@ -26,7 +28,7 @@ namespace UnityTddBeginner.Controllers
             if (other.collider.TryGetComponent(out IPlayerController playerController))
             {
                 if (other.contacts[0].normal.y < 0f) return;
-                
+
                 playerController.Health.TakeDamage(Attacker);
             }
         }

@@ -132,6 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 11400000, guid: 484a217e2e58f3a4ca4699a48f1dab76, type: 2}
+  _rigidbody2D: {fileID: 177892591}
+  _movementAction: {fileID: -1680190386980627800, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
 --- !u!50 &177892591
 Rigidbody2D:
   serializedVersion: 4

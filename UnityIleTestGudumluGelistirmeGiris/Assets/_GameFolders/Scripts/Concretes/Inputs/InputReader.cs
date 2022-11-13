@@ -7,23 +7,27 @@ namespace UnityTddBeginner.Inputs
     public class InputReader : IInputReader
     {
         readonly GameInputActions _input;
+        readonly InputActionReference _movementAction;
         
         public float Horizontal { get; private set; }
         public bool Jump => _input.Player.Jump.WasPressedThisFrame();
 
-        public InputReader()
+        public InputReader(InputActionReference movementAction)
         {
             _input = new GameInputActions();
+            _movementAction = movementAction;
 
-            _input.Player.Move.performed += HandleOnMoved;
-            _input.Player.Move.canceled += HandleOnMoved;
+            _movementAction.action.performed += HandleOnMovement;
+            _movementAction.action.canceled += HandleOnMovement;
             
             _input.Enable();
+            _movementAction.action.Enable();
         }
 
-        void HandleOnMoved(InputAction.CallbackContext context)
+        void HandleOnMovement(InputAction.CallbackContext context)
         {
             Horizontal = context.ReadValue<Vector2>().x;
+            Debug.Log(Horizontal);
         }
     }    
 }

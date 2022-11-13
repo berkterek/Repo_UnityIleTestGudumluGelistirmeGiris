@@ -18,10 +18,10 @@ namespace Movements
             return playerController;
         }
 
-        private IMover GetMover(IPlayerController playerController)
+        private IMovementService GetMovementManager(IPlayerController playerController, IMoverDal moverDal)
         {
-            IMover mover = new PlayerMoveWithTranslate(playerController);
-            return mover;
+            var movementManager = new PlayerMovementManager(playerController, moverDal);
+            return movementManager;
         }
         
         [Test]
@@ -31,19 +31,24 @@ namespace Movements
         {
             //Arrange
             var playerController = GetPlayer();
-            var mover = GetMover(playerController);
-            Vector3 startPosition = playerController.transform.position;
+            var moveDal = Substitute.For<IMoverDal>();
+            var movementManager = GetMovementManager(playerController,moveDal);
 
             //Act
             playerController.InputReader.Horizontal.Returns(horizontalInputValue);
+            playerController.Stats.MoveSpeed.Returns(5f);
+            
+            float inputValue = playerController.InputReader.Horizontal * playerController.Stats.MoveSpeed *
+                               Time.deltaTime;
+            
             for (int i = 0; i < 10; i++)
             {
-                mover.Tick(); //input
-                mover.FixedTick(); //input ile aksiyon
+                movementManager.Tick(); //input
+                movementManager.FixedTick(); //input ile aksiyon
             }
 
             //Assert
-            Assert.AreNotEqual(startPosition,playerController.transform.position);
+            moveDal.Received().MoveProcess(inputValue);
         }
         
         [Test]
@@ -51,19 +56,23 @@ namespace Movements
         {
             //Arrange
             var playerController = GetPlayer();
-            var mover = GetMover(playerController);
-            Vector3 startPosition = playerController.transform.position;
+            var moveDal = Substitute.For<IMoverDal>();
+            var movementManager = GetMovementManager(playerController,moveDal);
 
             //Act
             playerController.InputReader.Horizontal.Returns(1f);
+            playerController.Stats.MoveSpeed.Returns(5f);
+            
+            float inputValue = playerController.InputReader.Horizontal * playerController.Stats.MoveSpeed *
+                               Time.deltaTime;
             for (int i = 0; i < 10; i++)
             {
-                mover.Tick(); //input
-                mover.FixedTick(); //input ile aksiyon
+                movementManager.Tick(); //input
+                movementManager.FixedTick(); //input ile aksiyon
             }
 
             //Assert
-            Assert.Greater(playerController.transform.position.x,startPosition.x);
+            moveDal.Received().MoveProcess(inputValue);
         }
         
         [Test]
@@ -71,19 +80,45 @@ namespace Movements
         {
             //Arrange
             var playerController = GetPlayer();
-            var mover = GetMover(playerController);
-            Vector3 startPosition = playerController.transform.position;
+            var moveDal = Substitute.For<IMoverDal>();
+            var movementManager = GetMovementManager(playerController,moveDal);
 
             //Act
             playerController.InputReader.Horizontal.Returns(-1f);
+            playerController.Stats.MoveSpeed.Returns(5f);
+            
+            float inputValue = playerController.InputReader.Horizontal * playerController.Stats.MoveSpeed *
+                               Time.deltaTime;
             for (int i = 0; i < 10; i++)
             {
-                mover.Tick(); //input
-                mover.FixedTick(); //input ile aksiyon
+                movementManager.Tick(); //input
+                movementManager.FixedTick(); //input ile aksiyon
             }
             
             //Assert
-            Assert.Less(playerController.transform.position.x,startPosition.x);
+            moveDal.Received().MoveProcess(inputValue);
+        }
+
+        [Test]
+        public void not_move_when_input_value_equal_zero()
+        {
+            var playerController = GetPlayer();
+            var moveDal = Substitute.For<IMoverDal>();
+            var movementManager = GetMovementManager(playerController,moveDal);
+            
+            playerController.InputReader.Horizontal.Returns(0f);
+            playerController.Stats.MoveSpeed.Returns(5f);
+            
+            float inputValue = playerController.InputReader.Horizontal * playerController.Stats.MoveSpeed *
+                               Time.deltaTime;
+            
+            for (int i = 0; i < 10; i++)
+            {
+                movementManager.Tick(); //input
+                movementManager.FixedTick(); //input ile aksiyon
+            }
+            
+            moveDal.DidNotReceive().MoveProcess(inputValue);
         }
     }    
 }
