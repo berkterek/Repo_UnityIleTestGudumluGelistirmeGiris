@@ -19,7 +19,7 @@ namespace UnityTddBeginner.Movements
         
         public void Tick()
         {
-            _inputValue = _enemyController.IsDirectionRight ? 1f : -1;
+            _inputValue = _enemyController.IsDirectionRight ? 1f : -1f;
             _inputValue *= Time.deltaTime * _enemyController.Stats.MoveSpeed;
         }
 

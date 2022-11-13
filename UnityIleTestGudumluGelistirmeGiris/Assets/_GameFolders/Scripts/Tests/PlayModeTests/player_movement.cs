@@ -79,5 +79,5 @@ namespace Movements
             
             Assert.Less(_playerController.transform.position.x, startPosition.x);
         }
-    }    
+    }
 }

@@ -9,7 +9,7 @@ namespace UnityTddBeginner.Abstracts.Controllers
         IAttacker Attacker { get; set; }
         IEnemyStats Stats { get; }
         IHealth Health { get; }
-        IMoverDal Mover { get; }
-        bool IsDirectionRight { get; }
+        IMovementService MoveManager { get; }
+        bool IsDirectionRight { get; set; }
     }
 }
