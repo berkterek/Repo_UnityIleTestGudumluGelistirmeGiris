@@ -10,5 +10,6 @@ namespace UnityTddBeginner.Abstracts.Controllers
         IEnemyStats Stats { get; }
         IHealth Health { get; }
         IMoverDal Mover { get; }
+        bool IsDirectionRight { get; }
     }
 }

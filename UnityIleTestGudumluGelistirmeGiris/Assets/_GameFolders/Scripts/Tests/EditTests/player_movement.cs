@@ -23,7 +23,7 @@ namespace Movements
             var movementManager = new PlayerMovementManager(playerController, moverDal);
             return movementManager;
         }
-        
+
         [Test]
         [TestCase(1f)]
         [TestCase(-1f)]
@@ -32,15 +32,15 @@ namespace Movements
             //Arrange
             var playerController = GetPlayer();
             var moveDal = Substitute.For<IMoverDal>();
-            var movementManager = GetMovementManager(playerController,moveDal);
+            var movementManager = GetMovementManager(playerController, moveDal);
 
             //Act
             playerController.InputReader.Horizontal.Returns(horizontalInputValue);
             playerController.Stats.MoveSpeed.Returns(5f);
-            
+
             float inputValue = playerController.InputReader.Horizontal * playerController.Stats.MoveSpeed *
                                Time.deltaTime;
-            
+
             for (int i = 0; i < 10; i++)
             {
                 movementManager.Tick(); //input
@@ -50,19 +50,19 @@ namespace Movements
             //Assert
             moveDal.Received().MoveProcess(inputValue);
         }
-        
+
         [Test]
         public void move_10_meters_right_end_position_greater_than_start_position()
         {
             //Arrange
             var playerController = GetPlayer();
             var moveDal = Substitute.For<IMoverDal>();
-            var movementManager = GetMovementManager(playerController,moveDal);
+            var movementManager = GetMovementManager(playerController, moveDal);
 
             //Act
             playerController.InputReader.Horizontal.Returns(1f);
             playerController.Stats.MoveSpeed.Returns(5f);
-            
+
             float inputValue = playerController.InputReader.Horizontal * playerController.Stats.MoveSpeed *
                                Time.deltaTime;
             for (int i = 0; i < 10; i++)
@@ -74,19 +74,19 @@ namespace Movements
             //Assert
             moveDal.Received().MoveProcess(inputValue);
         }
-        
+
         [Test]
         public void move_10_meters_left_end_position_greater_than_start_position()
         {
             //Arrange
             var playerController = GetPlayer();
             var moveDal = Substitute.For<IMoverDal>();
-            var movementManager = GetMovementManager(playerController,moveDal);
+            var movementManager = GetMovementManager(playerController, moveDal);
 
             //Act
             playerController.InputReader.Horizontal.Returns(-1f);
             playerController.Stats.MoveSpeed.Returns(5f);
-            
+
             float inputValue = playerController.InputReader.Horizontal * playerController.Stats.MoveSpeed *
                                Time.deltaTime;
             for (int i = 0; i < 10; i++)
@@ -94,7 +94,7 @@ namespace Movements
                 movementManager.Tick(); //input
                 movementManager.FixedTick(); //input ile aksiyon
             }
-            
+
             //Assert
             moveDal.Received().MoveProcess(inputValue);
         }
@@ -104,22 +104,21 @@ namespace Movements
         {
             var playerController = GetPlayer();
             var moveDal = Substitute.For<IMoverDal>();
-            var movementManager = GetMovementManager(playerController,moveDal);
-            
+            var movementManager = GetMovementManager(playerController, moveDal);
+
             playerController.InputReader.Horizontal.Returns(0f);
             playerController.Stats.MoveSpeed.Returns(5f);
-            
+
             float inputValue = playerController.InputReader.Horizontal * playerController.Stats.MoveSpeed *
                                Time.deltaTime;
-            
+
             for (int i = 0; i < 10; i++)
             {
                 movementManager.Tick(); //input
                 movementManager.FixedTick(); //input ile aksiyon
             }
-            
+
             moveDal.DidNotReceive().MoveProcess(inputValue);
         }
-    }    
+    }
 }
-

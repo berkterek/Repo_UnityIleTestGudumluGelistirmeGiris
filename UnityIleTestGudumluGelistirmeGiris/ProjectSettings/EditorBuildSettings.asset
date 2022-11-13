@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/PlayerMovementTest.unity
     guid: fef907cc2ab25ae478beb59202901337
+  - enabled: 1
+    path: Assets/_Scenes/EnemyMovementTest.unity
+    guid: 1bcb3a67030827d4191712f3c1bc5ff8
   m_configObjects: {}

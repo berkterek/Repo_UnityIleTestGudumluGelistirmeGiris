@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityTddBeginner.Abstracts.Combats;
 using UnityTddBeginner.Abstracts.Controllers;
 using UnityTddBeginner.Abstracts.Movements;
@@ -16,6 +17,7 @@ namespace UnityTddBeginner.Controllers
         public IEnemyStats Stats => _stats;
         public IHealth Health { get; private set; }
         public IMoverDal Mover { get; private set; }
+        public bool IsDirectionRight { get; private set; }
 
         void Awake()
         {
