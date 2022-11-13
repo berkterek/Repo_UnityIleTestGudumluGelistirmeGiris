@@ -1,24 +1,53 @@
 ﻿using UnityEngine;
-using UnityTddBeginner.Abstracts.Controllers;
 using UnityTddBeginner.Abstracts.Movements;
 
 namespace UnityTddBeginner.Movements
 {
-    public class PlayerForceJumpDal : IJumpDal
+    public class ForceJumpDal : IJumpDal
     {
-        readonly IPlayerController _playerController;
         readonly Rigidbody2D _rigidbody2D;
 
-        public PlayerForceJumpDal(IPlayerController playerController)
+        public ForceJumpDal(Rigidbody2D rigidbody)
         {
-            _playerController = playerController;
-            _rigidbody2D = _playerController.transform.GetComponent<Rigidbody2D>();
+            _rigidbody2D = rigidbody;
         }
         
-        public void JumpProcess()
+        public void JumpProcess(float value)
         {
-            float jumpForceValue = _playerController.Stats.JumpForce * Time.deltaTime;
-            _rigidbody2D.AddForce(Vector3.up * jumpForceValue);
+            float jumpForceValue = value * Time.deltaTime;
+            _rigidbody2D.AddForce(jumpForceValue * Vector3.up);
+        }
+    }
+    
+    public class VelocityJumpDal : IJumpDal
+    {
+        readonly Rigidbody2D _rigidbody2D;
+
+        public VelocityJumpDal(Rigidbody2D rigidbody2D)
+        {
+            _rigidbody2D = rigidbody2D;
+        }
+        
+        public void JumpProcess(float value)
+        {
+            float jumpForceValue = value * Time.deltaTime;
+            _rigidbody2D.velocity = jumpForceValue * Vector3.up;
+        }
+    }
+
+    public class TransformPositionJumpDal : IJumpDal
+    {
+        readonly Transform _transform;
+
+        public TransformPositionJumpDal(Transform transform)
+        {
+            _transform = transform;
+        }
+        
+        public void JumpProcess(float value)
+        {
+            float jumpForceValue = value * Time.deltaTime;
+            _transform.position += jumpForceValue * Vector3.up;
         }
     }
 }

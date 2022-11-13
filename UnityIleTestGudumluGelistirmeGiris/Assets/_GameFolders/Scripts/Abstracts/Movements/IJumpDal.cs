@@ -2,6 +2,6 @@
 {
     public interface IJumpDal
     {
-        void JumpProcess();
+        void JumpProcess(float value);
     }
 }

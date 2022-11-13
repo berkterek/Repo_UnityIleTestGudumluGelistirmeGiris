@@ -19,7 +19,7 @@ namespace Movements
             playerJumpManager.Tick();
             playerJumpManager.FixedTick();
             
-            jumpDal.Received().JumpProcess();
+            jumpDal.Received().JumpProcess(0f);
         }
 
         [Test]
@@ -33,7 +33,7 @@ namespace Movements
             playerJumpManager.Tick();
             playerJumpManager.FixedTick();
             
-            jumpDal.DidNotReceive().JumpProcess();
+            jumpDal.DidNotReceive().JumpProcess(0f);
         }
     }
 }

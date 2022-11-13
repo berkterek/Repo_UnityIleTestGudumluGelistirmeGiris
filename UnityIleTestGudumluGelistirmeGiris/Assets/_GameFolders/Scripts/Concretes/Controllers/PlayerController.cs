@@ -11,9 +11,11 @@ using UnityTddBeginner.ScriptableObjects;
 
 namespace UnityTddBeginner.Controllers
 {
+    [RequireComponent(typeof(Rigidbody2D))]
     public class PlayerController : MonoBehaviour, IPlayerController
     {
         [SerializeField] PlayerStats _playerStats;
+        [SerializeField] Rigidbody2D _rigidbody2D;
         
         IMover _mover;
         IFlip _flip;
@@ -29,12 +31,18 @@ namespace UnityTddBeginner.Controllers
 
         void Awake()
         {
+            GetReference();
             InputReader = new InputReader();
             _mover = new PlayerMoveWithTranslate(this);
             _flip = new PlayerFlipWithScale(this);
             Health = new Health(Stats);
             Attacker = new Attacker(Stats);
-            JumpManager = new PlayerJumpManager(this, new PlayerForceJumpDal(this));
+            JumpManager = new PlayerJumpManager(this, new ForceJumpDal(_rigidbody2D));
+        }
+
+        void OnValidate()
+        {
+            GetReference();
         }
 
         void Update()
@@ -58,6 +66,14 @@ namespace UnityTddBeginner.Controllers
                 if (other.contacts[0].normal.y != 1f) return;
                 
                 enemyController.Health.TakeDamage(Attacker);
+            }
+        }
+
+        private void GetReference()
+        {
+            if (_rigidbody2D == null)
+            {
+                _rigidbody2D = GetComponent<Rigidbody2D>();
             }
         }
     }
